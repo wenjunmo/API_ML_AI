@@ -25,7 +25,7 @@
 
 ## Documentation Directory(文档目录)
 
-- [核心价值](https://github.com/wenjunmo/API_ML_AI_SmartMemorial/blob/master/README.md#%E5%BF%85-%E5%8A%A0%E5%80%BC%E5%AE%A3%E8%A8%80)
+- [核心价值](https://github.com/wenjunmo/API_ML_AI_SmartMemorial#%E5%BF%85-%E5%8A%A0%E5%80%BC%E5%AE%A3%E8%A8%80)
 - []
 - []
 

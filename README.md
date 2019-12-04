@@ -25,7 +25,7 @@
 
 ## Documentation Directory(文档目录)
 
-- []
+- [核心价值]()
 - []
 - []
 

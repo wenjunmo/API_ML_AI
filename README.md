@@ -58,11 +58,26 @@
 ### - 核心价值宣言
 
 背景
-
 目的
 目标
 
+运用价值主张(Value propositions)来对商业模式(Business models)进行剖析，使用应用程序编程接口(Application Programming Interface API)来对API经济(API Economy)、API开放平台(API Open Platform)以及模块化(Modularization)来对利害关系(Stakeholder)的两方：API面向客户(API Customer)和API使用者(API Consumer)来进行资源合理配置。
+智能毕业纪念册基于API开放平台技术的支持来对该款APP进行模块化设计，针对用户的不同使用场景来对该款APP的价值主张来进行补充，并且在可实际操作的商业模式下来对API客户和API使用者进行资源的合理调度。
 
+利害关系图的阐述：
+
+产品设计开发人员（API客户）
+系统整合开发人员（API使用者）
+终端用户
+API/智能云端供货商（API提供者）
+
+上面是四个角色，但是活动的流程是这样子：
+
+API客户也就是产品经理来对智能产品的价值主张进行设计（对应到终端用户的用户需求的任务、痛点及增长点），对智能/平台/模块成本效益进行分析（对应供货商的技术及数据的价值主张）
+API使用者也就是后台开发人员对终端用户提出的需求任务、痛点及增长点按照API客户设计的价值主张来系统整合开发APPs，基于API供货商提供的APIs开放平台以及数据库服务，
+
+从APPs-APIs-DataService
+将已有成功的APPs
 
 
 

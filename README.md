@@ -305,6 +305,11 @@
 
 - 旷世Face++人脸识别
 
+
+
+![Face++Face](https://images.gitee.com/uploads/images/2019/1211/083658_bc4cf548_1831543.png "屏幕截图.png")
+
+
 - 腾讯AI开放平台人脸识别
 
 - Axure人脸识别

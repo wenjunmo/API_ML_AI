@@ -301,7 +301,7 @@
 ### - 使用比较分析
 
 
-1. 人脸识别
+1. 人脸识别-人脸检测与属性分析
 
 - 旷世Face++人脸识别
 
@@ -312,18 +312,29 @@
 
 - 腾讯AI开放平台人脸识别
 
+![TencentFace](https://images.gitee.com/uploads/images/2019/1211/083940_ef1ea3b9_1831543.png "屏幕截图.png")
+
 - Axure人脸识别
 
 - 百度AI开放平台人脸识别
+
+![baiduFace](https://images.gitee.com/uploads/images/2019/1211/084319_597fac32_1831543.png "屏幕截图.png")
 
 
 2. 语音识别
 
 - 科大讯飞语音识别
 
+![XunfeiVoice](https://images.gitee.com/uploads/images/2019/1211/084823_cbe441aa_1831543.png "屏幕截图.png")
+
 - 腾讯AI开放平台语音识别
 
+![TencentVoicelab](https://images.gitee.com/uploads/images/2019/1211/085133_7012276f_1831543.png "屏幕截图.png")
+![TencentVoiceChat](https://images.gitee.com/uploads/images/2019/1211/085308_712c8375_1831543.png "屏幕截图.png")
+
 - 百度AI开放平台语音识别
+
+
 
 
 

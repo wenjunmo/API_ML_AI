@@ -4,6 +4,8 @@
 
 🐱‍🚀
 
+\u2764
+
 &#8672
 
 <img class="emoji" alt="blush" src="https://github.githubassets.com/images/icons/emoji/unicode/1f60a.png" width="20" height="20">

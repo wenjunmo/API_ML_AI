@@ -1,24 +1,40 @@
-# Project Name：想念
+<div align="center">
+  <h1>:whale2: Project Name：想念 :whale2:</h1>
+  <p>Seeking True from Fact 网新人，有态度，不认输，不头秃</p>
+</div>
+
+# API_ML_AI_SmartMemorial
+
+基于微信平台开发的 **智能毕业纪念相册** APP
+
+## PRD 价值主张设计
+
+### 目标：多层次多长度版本
+
+1. 一句话版本
+
+> 此款 **智能毕业纪念册** APP 通过调取 **人脸融合API** 与 **语音合成API** ，用户只需将本地照片与个性化本人语音上传，APP 会直接合成含有语音的智能暂时匿名化照片，发布在“ **你合我猜** ”游戏模块，当猜对一张照片上传者名字即可解锁上传者的校园资料，秉持用游戏改变纪念形式的态度做出不一样的纪念相册。
+
+
+2. 一分钟60s版本 (图文线上可阅读含可查连结)
+
+这款 **智能毕业纪念册** APP 调取 **Face++** 人像处理中的 **人脸融合API** 与 **科大讯飞** 语音识别中的 **语音合成** 来实现 **你合我猜** 游戏化模块。用户只需将需要进行融合处理的照片和需要语音合成的个人语音上传至 APP，程序会依照个人喜好来合成新语音照片，可选择发布在 APP 特色功能的“ **你合我猜** ” 游戏模块。只有当对方猜对了合成后语音照片的人名后才能够解锁照片所属同学的校园资料。该 APP 抓住 **你对身边朋友的了解程度如何** 的痛点心理，推出 “**你合我猜**” 模块，并绘制 **最小可行性产品原型** ，减少同学之间 **见面不认人** 的尴尬处境。
+
+3. 400 秒版本 Pecha Kucha 20x20 版本 (线上投影片含可查连结)
+
 
 ## Product Documentation(产品需求文档)
 
-:bowtie:
-
-🐱‍🚀
-✈
-\2708
-\u2764
-
-&#8672
-
 <img class="emoji" alt="blush" src="https://github.githubassets.com/images/icons/emoji/unicode/1f60a.png" width="20" height="20">
-
 
 |标题|内容|
 |----|---|
 |产品名称(product name)|想念|
-|产品全栈(Product Full Stack)|莫文俊|
-|文档所有者(Document owner)|莫文俊|
+|文档作者(Document owner)|莫文俊|
+|产品经理(Product manager)|莫文俊|
+|交互设计师(Interaction Designer)|莫文俊|
+|软件工程师(software engineer)|莫文俊|
+|测试运维师(Test Operation and Maintenance Division)|莫文俊|
 |发布日期(Release date)|2019.12|
 
 - 版本修订记录
@@ -387,5 +403,13 @@
 ### 六、总结
 
 先来船传江
+
+
+
+附录：
+
+[Reveal.js：把你的 Markdown 文稿变成 PPT](https://sspai.com/post/40657)
+[Marp：用 Markdown「写」PPT 的新选择](https://sspai.com/post/55718)
+
 
 

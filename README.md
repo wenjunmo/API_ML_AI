@@ -29,41 +29,39 @@
 
 |修订版本号|迭代日期|修订内容|迭代者|
 |---------|-------|--------|-----|
-|v1.0|2019.11.20|文档初稿撰写，建立基本产品文档框架，添加重要关键词|莫文俊|
-|v1.1|2019.11.26|-------|莫文俊|
-|v2.0|2019.11.27|-------|莫文俊|
-|v2.1|2019.11.28|-------|莫文俊|
-|v2.2|2019.12.01|-------|莫文俊|
-|v2.3|2019.12.04|-------|莫文俊|
-|v2.4|2019.12.10|-------|莫文俊|
+|v1.0|2019.11.20-2019.12.01|文档初稿撰写，建立基本产品文档框架，添加重要产品理念与技术开发项目流程|莫文俊|
+|v2.0|2019.12.01-2019.12.08|测试可用 API 并进行可用性测试比对，进行市场回访调查|莫文俊|
+|v3.0|2019.12.08-2019.12.15|选定 API 类型并实现测试运行，产品后台代码实现可用|莫文俊|
+|v4.0|2019.12.15-2019.12.22|开发 APP 原型，制作低保真原型初步实现逻辑|莫文俊|
+|v5.0|2019.12.23-          |产品上线并进行不断功能反馈|莫文俊|
+
 
 - 文档输出环境
 
 |文档名称|版本号|体验环境|撰写时间|撰写人|
 |---------|-------|--------|-----|----|
-|想念智能APP|v3.1|Andrio10|2019.1.26|莫文俊|
+|想念智能APP|v5.0|ios11|2019.12.23|莫文俊|
 
 ## Documentation Directory(文档目录)
 
-- [产品介绍]()
-- [市场背景]()
-- [价值主张设计]()
-  - [加值宣言]()
-  - [核心价值宣言]()
-  - [用户痛点宣言]()
-  - [人工智能概率性与用户痛点]()
-  - [需求列表与人工智能API加值]()
-- [原型]()
-  - [交互及界面设计]()
-  - [信息设计]()
-  - [原型文档]()
-  - [口头操作说明]()
-- [API 产品使用关键AI或机器学习之API的输出入展示]()
-  - [使用水平]()
-  - [使用比较分析]()
-  - [使用后风险报告]()
-  - [加分项]()
-
+- [产品介绍](https://github.com/wenjunmo/API_ML_AI_SmartMemorial#%E4%BA%A7%E5%93%81%E4%BB%8B%E7%BB%8D)
+- [市场背景](https://github.com/wenjunmo/API_ML_AI_SmartMemorial#%E5%B8%82%E5%9C%BA%E8%83%8C%E6%99%AF)
+- [价值主张设计](https://github.com/wenjunmo/API_ML_AI_SmartMemorial#%E4%BB%B7%E5%80%BC%E4%B8%BB%E5%BC%A0%E8%AE%BE%E8%AE%A1)
+  - [加值宣言](https://github.com/wenjunmo/API_ML_AI_SmartMemorial#--%E5%8A%A0%E5%80%BC%E5%AE%A3%E8%A8%80)
+  - [核心价值宣言](https://github.com/wenjunmo/API_ML_AI_SmartMemorial#--%E6%A0%B8%E5%BF%83%E4%BB%B7%E5%80%BC%E5%AE%A3%E8%A8%80)
+  - [用户痛点宣言](https://github.com/wenjunmo/API_ML_AI_SmartMemorial#--%E7%94%A8%E6%88%B7%E7%97%9B%E7%82%B9%E5%AE%A3%E8%A8%80)
+  - [人工智能概率性与用户痛点](https://github.com/wenjunmo/API_ML_AI_SmartMemorial#--%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD%E6%A6%82%E7%8E%87%E6%80%A7%E4%B8%8E%E7%94%A8%E6%88%B7%E7%97%9B%E7%82%B9)
+  - [需求列表与人工智能API加值](https://github.com/wenjunmo/API_ML_AI_SmartMemorial#--%E9%9C%80%E6%B1%82%E5%88%97%E8%A1%A8%E4%B8%8E%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BDapi%E5%8A%A0%E5%80%BC)
+- [原型](https://github.com/wenjunmo/API_ML_AI_SmartMemorial#%E5%8E%9F%E5%9E%8B)
+  - [交互及界面设计](https://github.com/wenjunmo/API_ML_AI_SmartMemorial#--%E4%BA%A4%E4%BA%92%E5%8F%8A%E7%95%8C%E9%9D%A2%E8%AE%BE%E8%AE%A1)
+  - [信息设计](https://github.com/wenjunmo/API_ML_AI_SmartMemorial#--%E4%BF%A1%E6%81%AF%E8%AE%BE%E8%AE%A1)
+  - [原型文档](https://github.com/wenjunmo/API_ML_AI_SmartMemorial#--%E5%8E%9F%E5%9E%8B%E6%96%87%E6%A1%A3)
+  - [口头操作说明](https://github.com/wenjunmo/API_ML_AI_SmartMemorial#--%E5%8F%A3%E5%A4%B4%E6%93%8D%E4%BD%9C%E8%AF%B4%E6%98%8E)
+- [API 产品使用关键AI或机器学习之API的输出入展示](https://github.com/wenjunmo/API_ML_AI_SmartMemorial#api-%E4%BA%A7%E5%93%81%E4%BD%BF%E7%94%A8%E5%85%B3%E9%94%AEai%E6%88%96%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E4%B9%8Bapi%E7%9A%84%E8%BE%93%E5%87%BA%E5%85%A5%E5%B1%95%E7%A4%BA)
+  - [使用水平](https://github.com/wenjunmo/API_ML_AI_SmartMemorial#--%E4%BD%BF%E7%94%A8%E6%B0%B4%E5%B9%B3)
+  - [使用比较分析](https://github.com/wenjunmo/API_ML_AI_SmartMemorial#--%E4%BD%BF%E7%94%A8%E6%AF%94%E8%BE%83%E5%88%86%E6%9E%90)
+  - [使用后风险报告](https://github.com/wenjunmo/API_ML_AI_SmartMemorial#--%E4%BD%BF%E7%94%A8%E5%90%8E%E9%A3%8E%E9%99%A9%E6%8A%A5%E5%91%8A)
+  - [加分项](https://github.com/wenjunmo/API_ML_AI_SmartMemorial#--%E5%8A%A0%E5%88%86%E9%A1%B9)
 
 
 ## 产品介绍
@@ -71,7 +69,7 @@
 “我们，重新定义毕业纪念册”
 “想念，是好久不见的表达”
 
-本软件基于人脸识别和语音识别开发的智能毕业纪念册，适用于任何想快速生成个性化毕业纪念册图集与校友连结的通讯录用户，不再为毕业后各自分飞而找不到联系方式而苦恼，不再为电子相册保存平台过多整理繁琐以及扫码失效，利用人脸识别进行照片比对以及语音识别进行语音留存来留住青春的容颜与声音。
+本软件基于人脸融合和语音合成研发的智能毕业纪念册，适用于任何想快速生成个性化毕业纪念册图集与校友连结的通讯录用户，不再为毕业后各自分飞而找不到联系方式而苦恼，不再为电子相册保存平台过多整理繁琐以及扫码失效，游戏化模块组件 “**你合我猜**” 更是能够解决多年老友不相见而健忘的尴尬场景，主打游戏化解锁新合成语音照片，在享受猜脸乐趣同时回忆逝去的青春美好。
 
 ## 市场背景
 

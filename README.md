@@ -9,7 +9,7 @@
     此款 **智能毕业纪念册** APP 通过调取 **人脸融合API** 与 **语音合成API** ，用户只需将本地照片与个性化本人语音上传，APP 会直接合成含有语音的智能暂时匿名化照片，发布在“ **你合我猜** ”游戏模块，当猜对一张照片上传者名字即可解锁上传者的校园资料，秉持用游戏改变纪念形式的态度做出不一样的纪念相册。
 > 2. 一分钟60s版本 (图文线上可阅读含可查连结)<br>
     这款 **智能毕业纪念册** APP 调取 **Face++** 人像处理中的 **人脸融合API** 与 **科大讯飞** 语音识别中的 **语音合成** 来实现 **你合我猜** 游戏化模块。用户只需将需要进行融合处理的照片和需要语音合成的个人语音上传至 APP，程序会依照个人喜好来合成新语音照片，可选择发布在 APP 特色功能的“ **你合我猜** ” 游戏模块。只有当对方猜对了合成后语音照片的人名后才能够解锁照片所属同学的校园资料。该 APP 抓住 **你对身边朋友的了解程度如何** 的痛点心理，推出 “**你合我猜**” 模块，并绘制 **最小可行性产品原型** ，减少同学之间 **见面不认人** 的尴尬处境。
-> 3. 400 秒版本 Pecha Kucha 20x20 版本 (线上投影片含可查连结)<br>
+> 3. [400 秒版本 Pecha Kucha 20x20 版本]() (线上投影片含可查连结)<br>
 
 ## Product Documentation(产品需求文档)
 
@@ -60,8 +60,8 @@
 ## :sparkles: 产品介绍
 
 > “我们，重新定义毕业纪念册”<br>
-> “想念，是好久不见的表达”
-> “想念，恋你的颜和言”
+> “想念，是好久不见的表达”<br>
+> “想念，恋你的颜和言”<br>
 
 本软件基于人脸融合和语音合成研发的智能毕业纪念册，适用于任何想快速生成个性化毕业纪念册图集与校友连结的通讯录用户，不再为毕业后各自分飞而找不到联系方式而苦恼，不再为电子相册保存平台过多整理繁琐以及扫码失效，游戏化模块组件 “**你合我猜**” 更是能够解决多年老友不相见而健忘的尴尬场景，主打游戏化解锁新合成语音照片，在享受猜脸乐趣同时回忆逝去的青春美好。
 
@@ -73,32 +73,32 @@ APP 形式无疑是一种可以涵盖更多不同信息形式的新型毕业纪�
 :star: **优势**
 
 >- 涵盖多样化信息（ 相较传统纸质纪念册），使用便捷性提高（相较于网页版）
->- 市场上占比少可忽略，而大多数 APP 纪念册多为个人开发专用，忽视大多数大学生群体的市场，市场有待进一步扩张
+>- 市场占比少，而大多数 APP 纪念册多为个人开发专用，忽视大多数大学生群体的市场，市场有待进一步扩张
 >- 大部分产品功能设计往全社交类方向进行引导，模糊了本身的产品定位，阻碍发展
 
 :star: **竞品分析**
 
 >1. 竞品一：微吾H5自助工具制作毕业纪念册<br>
-优点：<br>
+优点：
 >- 采用接龙的形式进行信息收集、纪念册制作。将工作量平摊到每个人，每人负责完成自己的纪念模块
 >- 无需下载软件，接收链接或二维码编辑者，可个人和集体编辑，可随时随地欣赏分享
 >- 更新方便及时，易于维护，可转换成电子书下载成pdf
 >- 互相赠言，还有很邪恶的悄悄话功能<br>
-缺点：<br>
-- 停留在传统毕业纪念册，没有科技感，信息留存较少<br>
+缺点：
+>- 停留在传统毕业纪念册，没有科技感，信息留存较少<br>
 
 >2. 竞品二：时光流影网站<br>
-优点:<br>
+优点:
 >- 直接上传图片进行模板个性化定制设计，有成熟模板供选择
 >- 分享链接与生成二维码<br>
-缺点:<br>
+缺点:
 >- 网页编辑不容易，没有轻便和简洁，更新慢<br>
 
 >3. 竞品三：微信公众号微影相册<br>
-优点:<br>
+优点:
 >- 直接选择手机里的照片，然后选主题模板滤镜音乐，就能做出来影集了
 >- 支持一键保存在手机内存中<br>
-缺点:<br>
+缺点:
 >- 没有分享功能，只能直接发送不够方便，没有乐趣模块只有简单的纪念留存<br>
 
 :star: **设计用户调查问卷**
@@ -119,7 +119,7 @@ APP 形式无疑是一种可以涵盖更多不同信息形式的新型毕业纪�
 
 :star: **目标群体大学生**
 
->- 主要针对的人群集中在即将毕业的大学生，对新型模式的纪念册排斥度会较小，接受度较高，而且善于接受新鲜事物
+>- 主要针对人群集中在即将毕业的大学生，对新型模式的纪念册排斥度较小，接受度较高，而且善于接受新鲜事物
 >- 大学生是手机用户的一大类人群，使用手机主要表现在满足沟通、娱乐、学习等需求上，情感价值主要表现在对个性化、时尚、分享交流的追求上
 >- 现代信息的多元化，信息的交流和保存不再局限于文字的格式，更多的信息是图片格式、语音格式和视频格式
 >- 功能设计中加入语音和视频信息的储存交流功能既满足大学生群体沟通的需求同时也满足大学生对个性化分享交流的追求
@@ -133,7 +133,7 @@ APP 形式无疑是一种可以涵盖更多不同信息形式的新型毕业纪�
 >- 除具备聊天加好友的功能之外，还加入招聘、婚恋、聚会、创业等辅助功能（有待商榷）
 >- 同时提供纸质版服务，配合平面设计建立多模板，为用户提供多样性的选择空间进行个性化定制
 
-本着满足大部分人群对 APP 形式便捷的需求，同时满足小部分人群对纸质毕业纪念册传统感的追求，同时最新颖的特点是应用了高新技术 API 的调用，基于人脸融合与语音合成 API 场景化使用，通过对照片与语音合成处理，将用户数据上传云端并进行备份，可随时进行调取<br>
+本着满足大部分人群对 APP 形式便捷的需求，同时满足小部分人群对纸质毕业纪念册传统感的追求，同时最新颖的特点是应用了高新技术 API 的调用，**基于人脸融合与语音合成** API 场景化使用，通过对照片与语音合成处理，将用户数据上传云端并进行备份，可随时进行调取<br>
 
 综合分析市场研究和调查，目前市面上并没有推出一款具体的使用人工智能 API与机器学习 的智能毕业相册APP，市面上的大多数都是以链接或者是纸质版留存为准，纪念意义大于使用意义，没有后续的使用价值，没有办法通过毕业纪念册来进行产品后续的自我价值，也没有很好起到沟通的效果，与产品设计的初衷有悖，并且通过调查，使用线上的程序或者是 APPs 在移动互联网下会有更多的使用场景和可以辨别的，使用频率和次数会增加，并且用户场景会更多<br>
 
@@ -181,6 +181,7 @@ APP 形式无疑是一种可以涵盖更多不同信息形式的新型毕业纪�
 (加值的表述是否明文且合理有实据地对映到用户痛点的表述。用户痛点参见 吴雪. 人工智能产品经理 1%*3=3%)
 
 |用户痛点|解决方案|
+|---------|-------|
 |千篇一律的模板相册套用没有新意，没有可玩性|自主创作，个性化精准服务并提供游戏化模块进行交流互动，扭转弱社交关系|
 |电子相册更多是照片的留存，信息更新不及时，实用性弱联系性弱观赏性强|提升效率和准确率，线上查看方便，更新及时，联系快捷|
 |自己制作太麻烦，等待周期长|提升用户体验，个人编辑所属页面，使用标签化归属分类|
@@ -194,6 +195,7 @@ APP 形式无疑是一种可以涵盖更多不同信息形式的新型毕业纪�
 >判断目的：实现概率最优和成本投入（资金投入、技术投入、时间周期选择）之间的平衡<br>
 
 |概率性|用户痛点|
+|---------|-------|
 |阳性 Positive|千篇一律的模板相册套用没有新意，没有可玩性|
 |假阳 False Positive|电子相册更多是照片的留存，信息更新不及时，实用性弱联系性弱观赏性强|
 |假阴 False Negative|自己制作太麻烦，等待周期长|
@@ -328,20 +330,19 @@ GitHub 代码下载地址：
 ### :star: 使用水平
 (在 PRD 文件中是否有说明且展示，核心功能所应用的 API 之输入及输出 1%*5=5%)
 
-核心功能的你画我猜的代码展示两个API再来一个推荐算法
-显示两个API的调用来上传代码
-可以调用多个平台的PI同类型没有问题可以实同一个公司的
+概要：核心功能你合我猜的代码展示——人脸融合与语音合成API(同一公司平台的不同类型API)+协同过滤推荐算法
 
+:computer: 1. 人脸融合
 
-
-1. 人脸融合
-
+Face++ 人脸融合API 操作文档：
 - [Face++ 人脸融合API使用文档](https://console.faceplusplus.com.cn/service/image/intro)
-[Merge Face API (V1):使用本 API，可以对模板图和融合图中的人脸进行融合操作](https://console.faceplusplus.com.cn/documents/20813963)
-Face++旷视 人工智能开放-技术能力-人像处理-人脸融合（点击会跳转到图像识别/功能的API里面，应该是被归类为识物里面）
+- [Merge Face API (V1):使用本 API，可以对模板图和融合图中的人脸进行融合操作](https://console.faceplusplus.com.cn/documents/20813963)
+
+操作面包屑导航：Face++旷视 人工智能开放平台-技术能力-人像处理-人脸融合（点击会跳转到图像识别/功能的API里面，被归类为识物）
 
 
 ```
+# 不可复用代码-Face++ 人脸融合API
 
 # -*- coding: utf-8 -*-
 import urllib.request
@@ -397,34 +398,27 @@ try:
     # for example: json.loads(qrount.decode('utf-8'))
     print(qrcont.decode('utf-8'))
 except urllib.error.HTTPError as e:
-    print(e.read().decode('utf-8'))
-    
+    print(e.read().decode('utf-8'))  
 ```
 
+参考文档：
+- [react-native 使用 Face++ 识别身份证，读取信息展示](http://www.pianshen.com/article/266759574/)
+- [markdown：API 编写模板](https://blog.csdn.net/weixin_33871366/article/details/94609694)
+- [C语言写的 FacePlusPlus，“error_message”：“ MISSING_ARGUMENTS：api_key”，带有 React Native 提取请求](https://stackoverflow.com/questions/48652293/faceplusplus-error-message-missing-arguments-api-key-with-react-native-f?rq=1)
+- [非常详细的教程用Face++来人脸融合 手把手教学](http://help.ih5.cn/question/3276.html)
+- [纯前端实现人脸融合 - 调用 Face++ 的人脸融合 API 接口实现 用C来写得](https://blog.csdn.net/gaofei880219/article/details/80805558)
 
+操作问题：
+- 查看以上官方文档，无论如何调用都是缺少参数，"error_message":"MISSING_ARGUMENTS: merge_url, merge_file, merge_base64"}
+- 回到最终的API调用文档中来，好好观察看出问题出现的地方是在哪里
+1. 调用的API入门测试的文档这个不是一成不变的必须要来依靠示例来进行修改并且知道是什么样子的参数调用才可以来进行使用，第一次直接就是调用了原始文档，吧并且将人脸融合的示例文档来进行添加就是没有办法还是报错：缺少必要的参数"error_message":"MISSING_ARGUMENTS: merge_url, merge_file, merge_base64"}
+2. 修改参数名称和参数的位置，仔细观察data的书写方式只有一个是上传文件，但是人脸融合必须是有一个模板图一个融合图是上传两个图片猜对，但是将data的fe修改后也同样是不可以，，所以说文档代码示例给得不明不白必须是自己要学会使用requests库来进行调用，不能够依靠初始的API调用代码
+3. Face++在 @煜华 帮助下来重写requests的调用
 
-[react-native 使用 Face++ 识别身份证，读取信息展示](http://www.pianshen.com/article/266759574/)
-[markdown：API 编写模板](https://blog.csdn.net/weixin_33871366/article/details/94609694)
-[C语言写的 FacePlusPlus，“error_message”：“ MISSING_ARGUMENTS：api_key”，带有 React Native 提取请求](https://stackoverflow.com/questions/48652293/faceplusplus-error-message-missing-arguments-api-key-with-react-native-f?rq=1)
-[非常详细的教程用Face++来人脸融合 手把手教学](http://help.ih5.cn/question/3276.html)
-[纯前端实现人脸融合 - 调用 Face++ 的人脸融合 API 接口实现 用C来写得](https://blog.csdn.net/gaofei880219/article/details/80805558)
-
-
-
-Face++在协助的情况下做了出来，感谢帮助
-
-
-查看上面的官方文档，无论如何都是调用缺少参数，缺少第二篇的参数于是就是请求协助
-
-回到最终的API调用文档中来，好好观察看出问题出现的地方是在哪里
-1.调用的API入门测试的文档这个不是一成不变的必须要来依靠示例来进行修改并且知道是什么样子的参数调用才可以来进行使用，
-第一次直接就是调用了原始文档，吧并且将人脸融合的示例文档来进行添加就是没有办法还是报错：缺少必要的参数"error_message":"MISSING_ARGUMENTS: merge_url, merge_file, merge_base64"}
-
-2.修改参数名称和参数的位置，仔细观察data的书写方式只有一个是上传文件，但是人脸融合必须是有一个模板图一个融合图是上传两个图片猜对，但是将data的fe修改后也同样是不可以，，所以说文档代码示例给得不明不白必须是自己要学会使用requests库来进行调用，不能够依靠初始的API调用代码
-3.在@煜华帮助下来重写reauests的调用
-代码如下
 
 ```
+# 可复用代码-Face++ 人脸融合API
+
 # 第一块
 import requests  # 导入requests库
 
@@ -465,17 +459,12 @@ file.close()
 
 ```
 
-报错信息：
-[Python 报错：SyntaxError: (unicode error) 'unicodeescape' codec can't decode bytes in position 2-3:，其实就是转义的问题就是需要//来进行转义](https://blog.csdn.net/caibaoH/article/details/78335094)
-
-[python 的 requests 发送 / 上传多个文件，看好字典类型的 files 参数的应用](https://blog.csdn.net/five3/article/details/74913742)
-[Python -- post 方式上传文件:
+报错信息参考：
+- [Python 报错：SyntaxError: (unicode error) 'unicodeescape' codec can't decode bytes in position 2-3:，其实就是转义的问题就是需要//来进行转义](https://blog.csdn.net/caibaoH/article/details/78335094)
+- [python 的 requests 发送 / 上传多个文件，看好字典类型的 files 参数的应用](https://blog.csdn.net/five3/article/details/74913742)
+- [Python -- post 方式上传文件:
 files = {'file': open('D:/test.apk', 'rb')}    ](https://blog.csdn.net/wudj810818/article/details/50903416)
-
-
-base64 转图片 python [python 将 base64 字符串还原成图片保存，代码简写](https://blog.csdn.net/QZC295919009/article/details/42712801)
-
-
+- [base64 转图片 python python 将 base64 字符串还原成图片保存，代码简写](https://blog.csdn.net/QZC295919009/article/details/42712801)
 
 代码在jupyternotebook截图
 
@@ -486,44 +475,22 @@ base64 转图片 python [python 将 base64 字符串还原成图片保存，代�
 
 生成的1.jpg在和生成他的代码放在同一文件夹中所以不用担心找不到所以就是可以来查看
 
-![生成的1.jpg在文档中位置](https://images.gitee.com/uploads/images/2019/1224/194055_126979d3_1831543.png "屏幕截图.png")
+>![生成的1.jpg在文档中位置](https://images.gitee.com/uploads/images/2019/1224/194055_126979d3_1831543.png "屏幕截图.png")
 
 
 
+百度大脑 AI开放平台 人脸融合API 操作文档：
 
-
-- 
-
-
-
-
-
-- 百度AI开放平台人脸融合
-
-[[Python] 调用百度 api 写的人脸融合 吾爱破解](https://www.52pojie.cn/thread-1031414-1-1.html)
-
-有文件直接来进行下载但是效果不怎么好，这段代码不能用太垃圾了
-会造成计算机不断闪退
-
-
-参考上面的文档
-
-有调用的次数后面再来自己进行调用比较之间的区别
-
-百度 AI 这个功能每天调用 500 次
-
-
-百度大脑 AI开放平台
-
-[人脸融合官方文档](https://ai.baidu.com/ai-doc/FACE/5k37c1ti0)
+- [百度大脑人脸融合官方文档](https://ai.baidu.com/ai-doc/FACE/5k37c1ti0)
+- [错误码对照](https://ai.baidu.com/ai-doc/FACE/5k37c1ujz)
 
 找到“Access Token 获取”。的文档
-[Access Token 获取](https://ai.baidu.com/ai-doc/REFERENCE/Ck3dwjhhu)
+- [Access Token 获取](https://ai.baidu.com/ai-doc/REFERENCE/Ck3dwjhhu)
 
-access_token 的有效期为 30 天，切记需要每 30 天进行定期更换，或者每次请求都拉取新 token；
 
 ```
 # 第一步先是来请求token
+# access_token 的有效期为 30 天，切记需要每 30 天进行定期更换，或者每次请求都拉取新 token
 
 # encoding:utf-8
 import requests 
@@ -535,22 +502,15 @@ if response:
     print(response.json())
 
 ```
+
 >![百度人脸融合的token获取](https://images.gitee.com/uploads/images/2019/1224/194845_d6e00552_1831543.png "屏幕截图.png")
-
-
-调用API了
-
-[百度人脸融合API调用官方文档](https://ai.baidu.com/ai-doc/FACE/5k37c1ti0)
-[错误码对照](https://ai.baidu.com/ai-doc/FACE/5k37c1ujz)
 
 
 但是是需要先来将图片进行base64编码后再来进行合成
 
-[Python3 - 中把图片进行 - base64 - 编码-用了这个](https://blog.csdn.net/CoderPai/article/details/80222947)
-[诡异错误一： ValueError: embedded null character](https://blog.csdn.net/quintind/article/details/77371402)
-
-[Python 将图片转换为 base64 编码](https://blog.csdn.net/J__Max/article/details/82424551)
-
+- [Python3 - 中把图片进行 - base64 - 编码-用了这个](https://blog.csdn.net/CoderPai/article/details/80222947)
+- [诡异错误一： ValueError: embedded null character](https://blog.csdn.net/quintind/article/details/77371402)
+- [Python 将图片转换为 base64 编码](https://blog.csdn.net/J__Max/article/details/82424551)
 
 ```
 import base64
@@ -559,12 +519,12 @@ with open('1.jpg', 'rb') as f:  # 以二进制读取图片
     data = f.read()
     encodestr = base64.b64encode(data) # 得到 byte 编码的数据
     print(str(encodestr,'utf-8'))  # 重新编码数据
-
 ```
 
 现将图片转换为base64
 
 >![两张图片都必须是在同一个文件夹和代码放在一起](https://images.gitee.com/uploads/images/2019/1224/204058_3317173c_1831543.png "屏幕截图.png")
+
 两张图片都必须是在同一个文件夹和代码放在一起
 
 >![2图片的储存在同一个文件下](https://images.gitee.com/uploads/images/2019/1224/204704_aa42bdcf_1831543.png "屏幕截图.png")
@@ -572,9 +532,8 @@ with open('1.jpg', 'rb') as f:  # 以二进制读取图片
 >![上传两张图片的base64码](https://images.gitee.com/uploads/images/2019/1224/204238_8e36c589_1831543.png "屏幕截图.png")
 
 
-人脸融合调用代码
-
 ```
+# 可复用百度大脑人脸融合API调用代码
 
 # encoding:utf-8
 
@@ -596,122 +555,74 @@ if response:
 
 ```
 
-在一系列的操作后就是出现了 {'error_code': 6, 'error_msg': 'No permission to access data'}
- 没有权限，
+在一系列的操作后就是出现了 {'error_code': 6, 'error_msg': 'No permission to access data'} 没有权限，
  
  >![没有权限](https://images.gitee.com/uploads/images/2019/1224/205142_8a4f8fb4_1831543.png "屏幕截图.png")
  
- [【应用勾选】AI 应用如何查看是否勾选](https://ai.baidu.com/forum/topic/show/492868)
- [{"error_msg":"No permission to access data","error_code":6} 处理方案](https://www.cnblogs.com/erph/p/9186204.html)
- 
- 
- 
- 
- 提交工单来进行处理，反馈挺快的要求重新获取token试试
- 
- 返回就是直接来返回json格式了
- 
- 
- ![获取返回的json值](https://images.gitee.com/uploads/images/2019/1224/211001_02d60e88_1831543.png "屏幕截图.png")
+- [【应用勾选】AI 应用如何查看是否勾选](https://ai.baidu.com/forum/topic/show/492868)
+- [{"error_msg":"No permission to access data","error_code":6} 处理方案](https://www.cnblogs.com/erph/p/9186204.html)
  
 
+提交工单来进行处理，反馈挺快的要求重新获取token，返回就是直接来返回json格式了
+ 
+ 
+>![获取返回的json值](https://images.gitee.com/uploads/images/2019/1224/211001_02d60e88_1831543.png "屏幕截图.png")
+ 
 
+:computer: 2. 语音合成
 
+腾讯AI开放平台语音合成
 
+操作文档：
+- [腾讯AI开放平台](https://ai.qq.com/)
+- [语音合成](https://ai.qq.com/product/aaitts.shtml)
+- [技术文档 PHP](https://ai.qq.com/doc/aaitts.shtml)
 
+操作面包屑导航：
+控制台-创建应用-在应用管理找到应用信息里面的APPID APPKEY-首页技术引擎-语音合成-语音合成 
 
+参考文档：
+- [吐槽腾讯语音合成python 腾讯语音合成](https://www.cnblogs.com/zepc007/p/10360557.html)
+- [良心博主：Python 调用腾讯 API 合成语音](https://www.codeleading.com/article/72342390067/)
+- [上面文章的CSDN出处](https://blog.csdn.net/hui_0_/article/details/102675804)
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-2. 语音合成
-
-- 科大讯飞语音识别
-- 腾讯AI开放平台语音识别
-- 百度AI开放平台语音识别
-
-
-
-网易AI语音合成没有文档
-科大讯飞的语音合成找不到文档就是按照上课来进行书写代码的调用了
-Face++没有语音合成
-腾讯没有语音合成的pythn代码不友好只有PHP的代码
-
-[吐槽腾讯语音合成python 腾讯语音合成](https://www.cnblogs.com/zepc007/p/10360557.html)在代码层次上讲，官方压根没有合成示例文档啊 (咆哮 ing)，全自己摸索的啊 (咆哮 ing)，SDK 都开发出来了，示例代码给一下能死啊 (咆哮 ing)，怪不得没人用啊 (咆哮 ing)！在合成效果上讲，声音难听爆了有木有，语音文件还得解码再 I/O, 吃饱了撑的了啊，还是那句话：怪不得没人用，百度语音合成效果比你强多了。
-
-[良心博主：Python 调用腾讯 API 合成语音](https://www.codeleading.com/article/72342390067/)
-[上面文章的CSDN出处](https://blog.csdn.net/hui_0_/article/details/102675804)
-
-实验心得
-
-
-先来使用腾讯语音合成
-
-人脸融合没有开放就是没有成熟
-[腾讯AI开放平台](https://ai.qq.com/)-控制台-创建应用-在应用管理找到应用信息里面的APPID APPKEY
-首页技术引擎-语音合成-语音合成 [语音合成](https://ai.qq.com/product/aaitts.shtml)
-[技术文档 PHP](https://ai.qq.com/doc/aaitts.shtml)
-
-参考良心博主的代码
-说明
+实验心得:
+参考良心博主的代码说明
 1. 需要去官网 https://ai.qq.com/ 创建应用，得到 APPID 和 APPKEY，然后将代码中默认的 appid = '1000001’和 appkey = 'a95eceb1ac8c24ee28b70f7dbba912bf’替换一下。
-2.text 是想要被转换成语音的文字，这个文字似乎不能太长，否则特别容易请求失败。
+2. text 是想要被转换成语音的文字，这个文字似乎不能太长，否则特别容易请求失败。
 3. 如果一切正常，会在代码所在目录下新增一个 wav 格式的音频文件，这个就是返回的腾讯合成的音频。
 4. 有时候会提示‘system busy, please try again later’，原因暂时不清楚。
 
-改好后要来对参数进行查看报错信息
-[异常处理](https://ai.qq.com/doc/returncode.shtml)
-完成后出现了ret: 16389查看异常处理是因为缺失 API 权限 请检查应用是否勾选当前 API 所属接口的权限 应该是接口没有被允许，所以要返回控制台为应用来添加能力库，在能力库里面找到语音合成并且点击接入能力到该创建的应用下面才可以调用权限
-完成后出现了ret: -2147483634是表示系统出错，例如网络超时，那就来刷新一下还是msg: system busy, please try again later
-退出来再来刷新一遍就是成功但是还是会报错：ret: 0 msg: ok 68     filepath = path.dirname(__file__)  #目录 NameError: name '__file__' is not defined 目录没有被定义就是我没有定义好目录在哪里，
-定义好后又发现诡异的报错：fout = open(filepath+file, 'wb'       ValueError: embedded null character
-这是写入文件的内容而不是可以乱删除，可能是文件的路径/\的区别
-[诡异错误一： ValueError: embedded null character](https://blog.csdn.net/quintind/article/details/77371402)
+改好后要来对参数进行查看报错信息参考文档：
+- [异常处理](https://ai.qq.com/doc/returncode.shtml)
+- 完成后出现了ret: 16389查看异常处理是因为缺失 API 权限 请检查应用是否勾选当前 API 所属接口的权限 应该是接口没有被允许，所以要返回控制台为应用来添加能力库，在能力库里面找到语音合成并且点击接入能力到该创建的应用下面才可以调用权限
+- 完成后出现了ret: -2147483634是表示系统出错，例如网络超时，那就来刷新一下还是msg: system busy, please try again later
+- 退出来再来刷新一遍就是成功但是还是会报错：ret: 0 msg: ok 68     filepath = path.dirname(__file__)  #目录 NameError: name '__file__' is not defined 目录没有被定义就是我没有定义好目录在哪里，
+- 定义好后又发现诡异的报错：fout = open(filepath+file, 'wb'       ValueError: embedded null character
+- 这是写入文件的内容而不是可以乱删除，可能是文件的路径/\的区别
+- [诡异错误一： ValueError: embedded null character](https://blog.csdn.net/quintind/article/details/77371402)
+
 所以就是这样子的区别：
 
-1、通过测试，确定错误确实是文件读取语句；
-
-2、是否是文件中包含 null 字符呢？用 ultraedit 工具用 16 进制形式检查数据文件，没有发现有 null 字符；
-
-3、是否是因为 Windows 中的编码和 python 中的编码形式不一样造成的呢？查看到文件编码为 GBK 格式，但 python 是可以正确读取 GBK 文件的，试了其它 GBK 文件，读取没有任何问题；
-
-4、是不是因为文件名太长？把数据文件放在当前文件夹下，尝试读取确实没有问题。但真的是文件名太长的原因吗？这时候我才发现文件名中有个 ‘\0’ ，才如梦初醒。
-
+1. 通过测试，确定错误确实是文件读取语句；
+2. 是否是文件中包含 null 字符呢？用 ultraedit 工具用 16 进制形式检查数据文件，没有发现有 null 字符；
+3. 是否是因为 Windows 中的编码和 python 中的编码形式不一样造成的呢？查看到文件编码为 GBK 格式，但 python 是可以正确读取 GBK 文件的，试了其它 GBK 文件，读取没有任何问题；
+4. 是不是因为文件名太长？把数据文件放在当前文件夹下，尝试读取确实没有问题。但真的是文件名太长的原因吗？这时候我才发现文件名中有个 ‘\0’ ，才如梦初醒。
 注意：一般情况下，Python 解释器会将遇到的‘\’识别为路径，会自动增加一个’\’以便和转义字符进行区分，但若遇到转义字符则不增加‘\’。
-
 例如：上述文件名将被转换为 F:\eclipse_workspace\machine_learning_example\Ch02\trainingDigits\0_38.txt。因而出错。
-
 文件路径中若包含‘\0’、’\t’ 等特殊转义字符时要特别注意。
-
 推荐文件路径写法：
 
-F:/eclipse_workspace/machine_learning_example/Ch02/trainningDigits/0_38.txt ，斜杠反过来了，这样就不会出现歧义了。
-F:\eclipse_workspace\machine_learning_example\Ch02\trainningDigits\0_38.txt
-————————————————
-版权声明：本文为CSDN博主「桂小林」的原创文章，遵循 CC 4.0 BY-SA 版权协议，转载请附上原文出处链接及本声明。
-原文链接：https://blog.csdn.net/quintind/article/details/77371402
-
+>F:/eclipse_workspace/machine_learning_example/Ch02/trainningDigits/0_38.txt ，斜杠反过来了，这样就不会出现歧义了。
+>F:\eclipse_workspace\machine_learning_example\Ch02\trainningDigits\0_38.txt
 
 在 stackoverflow АлексейСеменихин的回答也是一样-似乎您在使用字符 “\” 和 “ /” 时遇到了问题。 如果您在输入中使用它们 - 尝试将它们更改为另一种.. [使用 open（）时出现 “ValueError：嵌入的空字符”](https://stackoverflow.com/questions/33977519/valueerror-embedded-null-character-when-using-open/33981557)
 
 
 
-
 ```
+# 可复用腾讯AI开放平台语音合成API调用代码
+
 # -*- coding: utf-8 -*-
 """
 Created on Mon Oct 21 20:57:24 2019
@@ -791,32 +702,31 @@ print('over')
 
 ```
 
-**腾讯语音合成调取成功**
-
-调用的代码展示：
+调用的代码截图展示：
 
 >![腾讯语音合成notebook代码截图](https://images.gitee.com/uploads/images/2019/1224/101352_71f36a7f_1831543.png "屏幕截图.png")
 
 >![腾讯语音合成wav01.wav存储位置截图](https://images.gitee.com/uploads/images/2019/1224/101547_57bc3ec5_1831543.png "屏幕截图.png")
 
 
-百度语音合成
+百度大脑 AI开放平台语音合成
 
-[Python 人工智能之路 - 第二篇：算法实在太难了有现成的直接用吧 进阶版的百度云语音合成](http://www.uml.org.cn/python/201911293.asp) 没有采用这个
+操作文档：
+- [百度大脑 AI开放平台](https://ai.baidu.com/)
+- [在线合成API接口](https://ai.baidu.com/ai-doc/SPEECH/Gk38y8lzk)
+- [有官网的demo语音合成示例代码，python-Baidu-AIP/speech-demo](https://github.com/Baidu-AIP/speech-demo/tree/master/rest-api-tts)
+- [百度语音合成python代码下载](https://github.com/Baidu-AIP/speech-demo/tree/master/rest-api-tts/python)
+- [直接点击就是可以来进行查看复制粘贴](https://github.com/Baidu-AIP/speech-demo/blob/master/rest-api-tts/python/tts.py)
 
-一、官网
-[百度大脑 AI开放平台](https://ai.baidu.com/)
-开放能力-语音合成-在线语音合成-技术文档-
-[在线合成API接口](https://ai.baidu.com/ai-doc/SPEECH/Gk38y8lzk)
-有官网的demo
-有语音合成示例代码，有python的 [Baidu-AIP/speech-demo](https://github.com/Baidu-AIP/speech-demo/tree/master/rest-api-tts)
-[百度语音合成python代码下载](https://github.com/Baidu-AIP/speech-demo/tree/master/rest-api-tts/python)
-[直接点击就是可以来进行查看复制粘贴](https://github.com/Baidu-AIP/speech-demo/blob/master/rest-api-tts/python/tts.py)
-
+操作面包屑路径：
+开放能力-语音合成-在线语音合成-技术文档
 登录百度大脑AI开放平台-控制台-语音技术-创建应用-管理应用-APIID API Key Secret Key 三个资料
 
+参考文档：
+[Python 人工智能之路 - 第二篇：算法实在太难了有现成的直接用吧 进阶版的百度云语音合成](http://www.uml.org.cn/python/201911293.asp) 没有采用这个
 
 ```
+# 可复用百度大脑 AI开放平台语音合成API调用代码 
 
 # coding=utf-8
 import sys
@@ -941,34 +851,28 @@ if __name__ == '__main__':
 
 
 ```
+
 代码生成截图
 
 >![百度AI语音合成nupyternotebook运行成功](https://images.gitee.com/uploads/images/2019/1224/111344_f8a5df61_1831543.png "屏幕截图.png")
 
-
-
-上面的代码都是已经调试成功了
 因为是用jupyternotebook来进行打开并且存储的，那么生成的 result.mp3的文件就是可以保存生成在和书写这个代码的文件是放在一起的，不是notebok的目录，而是在哪个文件里面生成他就是在哪个文件夹里面找到生成的文件就是好了
 
 文件放置截图
 
 >![百度AI语音合成生成 result.mp3 生成位置](https://images.gitee.com/uploads/images/2019/1224/110947_c01f3dad_1831543.png "屏幕截图.png")
 
-
-
-
-
 我在使用命令行来进行搜索，是因为当时没有找到，在文件快速访问里面也没有，后来可以下载everything很多人来推荐后面还是找哦命令行来进行下载
 
-
-dir C:\ G:\ H:\ W:\ X:\ /s /b | find "result.mp3"
+>dir C:\ G:\ H:\ W:\ X:\ /s /b | find "result.mp3"
 
 >![使用命令行来搜索生成 mp3 的具体位置](https://images.gitee.com/uploads/images/2019/1224/111716_81ed72ac_1831543.png "屏幕截图.png")
 
 
 
-
 ```
+# 可复用百度大脑 AI开放平台语音合成API调用代码注意事项
+
 测试试流程
 修改 tts.py
 从网页中申请的应用获取 appKey 和 appSecret
@@ -1004,25 +908,14 @@ CUID = "123456PYTHON";
 
 ```
 
-还有一种来生成python 的百度语音合成方法智能语音
-这个也是百度云的项目第一种实现方式
+还有一种来生成python 的百度语音合成方法智能语音，这个也是百度云的项目第一种实现方式，百度云来调取API来进行语音合成，其实获取ID等之类的和上面的文档是一样的，百度大脑的后台就是百度智能云是一样的道理，查看的路径也是一样就是在应用管理里面来查看就是一样的
 
-百度云来调取API来进行语音合成
-
-[百度智能云](https://cloud.baidu.com/)
-
-[Python 实现百度云API语音合成](https://www.codeleading.com/article/89462502729/;jsessionid=51D7386B97ED1DE97DB1033D1A6D7047)
-
-其实获取ID等之类的和上面的文档是一样的
-百度大脑的后台就是百度智能云是一样的道理
-
-查看的路径也是一样就是在应用管理里面来查看就是一样的
-
-
-
-
+- [百度智能云](https://cloud.baidu.com/)
+- [Python 实现百度云API语音合成](https://www.codeleading.com/article/89462502729/;jsessionid=51D7386B97ED1DE97DB1033D1A6D7047)
 
 ```
+
+# 可复用百度大脑 AI开放平台语音合成API调用代码 
 
 from aip import AipSpeech # 在导入模块之前一定要查看是否已经有此模块，没有就是要来下载百度云的API SDK ，在jupyternotebook 就是打开 在anoconda prompt 来 pip install baidu-aip
 
@@ -1053,35 +946,23 @@ input("转换成功!")                                                   # 产�
 
 ```
 
-第一次是报错没有API这个模块所以就是要来导入
-
-他应该是有使用了sdk python
-
+第一次是报错没有API这个模块所以就是要来导入，他应该是有使用了sdk python
 安装使用 Python SDK 有如下方式：
-
 如果已安装 pip，执行 pip install baidu-aip 即可。试试
-
 在anoconda prompt 来 pip install baidu-aip
-
 现在下载 baidu-aip 的 sdk才可以来调用模块
-
 所以下载好后就是重新来运行代码
 
 
 代码运行截图
-第一步：
 
 >![百度云1](https://images.gitee.com/uploads/images/2019/1224/124846_1ad9f3a3_1831543.png "屏幕截图.png")
 
 >![百度云2](https://images.gitee.com/uploads/images/2019/1224/125014_4137f760_1831543.png "屏幕截图.png")
 
-
 >![百度云3](https://images.gitee.com/uploads/images/2019/1224/125153_8fb20156_1831543.png "屏幕截图.png")
 
 >![百度云4](https://images.gitee.com/uploads/images/2019/1224/125309_b575162a_1831543.png "屏幕截图.png")
-
-完成
-
 
 但是他不是生成在你指定的文件目录而是和result.mp3一样都是生成和生成他的这段代码所在的文件夹中
 
@@ -1092,11 +973,12 @@ input("转换成功!")                                                   # 产�
 
 将上面的代码来进行简化就是可以得到一个不用进行交互而是直接就是可以来进行输出，其实就是已经将需要输出的文本放进去直接来用就好了
 
-
+参考文档：
 [博客来源 百度云实现语音识别及语音合成](https://blog.csdn.net/weixin_38241876/article/details/84949534)
 
-```
 
+```
+# 可复用百度大脑 AI开放平台语音合成API调用代码
 
 from aip import AipSpeech
  
@@ -1121,29 +1003,18 @@ if not isinstance(result, dict):
 上面的代码同时是直接就是来生成了 test.mp3 在和生成他的代码文件在同一个文件夹里面，虽然没有响应显示但是是真真实实生成了并且有内容
 
 代码运行截图
+
 >![百度云 test.mp3 生成](https://images.gitee.com/uploads/images/2019/1224/130950_50b6a743_1831543.png "屏幕截图.png")
-
-
 
 test.mp3 文件生成的位置截图
 
 >![test.mp3 生成的目录](https://images.gitee.com/uploads/images/2019/1224/131259_58e7fb59_1831543.png "屏幕截图.png")
 
 
-
- 
-
-
-
-
-
 ### :star: 使用比较分析
 (在 PRD 文件中是否有说明且提供连结证据，所使用的 API 是查找过最适用的（主要竞争者无或比较次），如考量其成熟度丶性价比丶等等 1%*5=5%)
 
-可以借鉴表格
-需要有链接也就是API的链接，
-判断最实用的
-比较主要竞争者合比较次的竞争者，成熟度丶性价比等比较来做好表格
+可以借鉴表格，需要有链接也就是API的链接，判断最实用的，比较主要竞争者合比较次的竞争者，成熟度丶性价比等比较来做好表格
 
 人脸融合
 
@@ -1155,7 +1026,6 @@ Face++人脸融合
 [Face++人像处理API价格](https://www.faceplusplus.com.cn/v2/pricing-details/#api_4)
 
 >![Face++人像处理API价格](https://images.gitee.com/uploads/images/2019/1224/214630_a1ec1836_1831543.png "屏幕截图.png")
-
 
 
 百度AI人脸融合
@@ -1173,7 +1043,7 @@ Face++人脸融合
 
 
 腾讯AI开放平台人脸融合没有因为还没有研制出来所以就是没有直接不考虑
-
+人脸融合没有开放就是没有成熟
 
 
 语音合成
@@ -1192,6 +1062,9 @@ Face++人脸融合
 
 ![科大讯飞语音合成价格](https://images.gitee.com/uploads/images/2019/1224/230349_257ae8da_1831543.png "屏幕截图.png")
 
+
+
+
 百度云语音合成
 200字 4种选择声音语速+音调+音量
 ![百度云语音合成](https://images.gitee.com/uploads/images/2019/1224/222758_583a75bc_1831543.png "屏幕截图.png")
@@ -1199,6 +1072,8 @@ Face++人脸融合
 [百度云语音合成价格](https://ai.baidu.com/ai-doc/SPEECH/Nk38y8pjq)
 
 ![百度云语音合成定价](https://images.gitee.com/uploads/images/2019/1224/223121_1b358da1_1831543.png "屏幕截图.png")
+
+
 
 
 腾讯(https://ai.qq.com/product/aaitts.shtml)
@@ -1211,16 +1086,21 @@ Face++人脸融合
 
 没有收费项目在网站上面查找到相关资讯，在开放平台没有搜索到相关收费信息
 
-
+腾讯在代码层次上讲，官方压根没有合成示例文档啊 (咆哮 ing)，全自己摸索的啊 (咆哮 ing)，SDK 都开发出来了，示例代码给一下能死啊 (咆哮 ing)，怪不得没人用啊 (咆哮 ing)！在合成效果上讲，声音难听爆了有木有，语音文件还得解码再 I/O, 吃饱了撑的了啊，还是那句话：怪不得没人用，百度语音合成效果比你强多了。
 网易AI开放平台语音合成并没有开放使用网页端没有，只有微信小程序体验版网易 AI 体验中心，限制50字，语速只有正常慢速快速之分，没有API可以调用
 
 
 
+
+网易AI语音合成没有文档
+科大讯飞的语音合成找不到文档就是按照上课来进行书写代码的调用了
+Face++没有语音合成
+腾讯没有语音合成的pythn代码不友好只有PHP的代码
+
 ### :star: 使用后风险报告
 (在 PRD 文件中是否有说明且提供连结证据，所使用的 API 类别的现在及未来发展性，如 API 市场竞争程度丶输入输出限制丶定价丶及可替代的程序库（改用自己开发的代码及数据库而不用 API）等等 1%*5=5%)
 
-现在及未来发展性
-API 市场竞争程度丶输入输出限制丶定价丶及可替代的程序库（改用自己开发的代码及数据库而不用 API）都要写上来
+现在及未来发展性，API 市场竞争程度丶输入输出限制丶定价丶及可替代的程序库（改用自己开发的代码及数据库而不用 API）都要写上来
 
 准确度
 响应度
@@ -1230,6 +1110,7 @@ API 市场竞争程度丶输入输出限制丶定价丶及可替代的程序库�
 弄符号和自己实验过程中出现的展示和数据来进行说明
 
 
+有调用的次数后面再来自己进行调用比较之间的区别
 
 人脸融合
 
@@ -1259,23 +1140,23 @@ API 市场竞争程度丶输入输出限制丶定价丶及可替代的程序库�
 
 
 
-1. 人脸识别
+1. 人脸融合
 
-- 旷世Face++人脸识别
+- 旷世Face++人脸融合
 
-- 腾讯AI开放平台人脸识别
+- 腾讯AI开放平台人脸融合
 
-- Axure人脸识别
+- 百度AI开放平台人脸融合
 
-- 百度AI开放平台人脸识别
+2. 语音合成
 
-2. 语音识别
+- 科大讯飞语音合成
 
-- 科大讯飞语音识别
+- 腾讯AI开放平台语音合成
 
-- 腾讯AI开放平台语音识别
+- 百度AI开放平台语音合成
 
-- 百度AI开放平台语音识别
+- 网易AI开放平台语音合成
 
 
 
@@ -1297,14 +1178,10 @@ API 市场竞争程度丶输入输出限制丶定价丶及可替代的程序库�
 
 ### :sparkles: 六、总结
 
-先来船传江
-
-
-
 附录：
 
-[Reveal.js：把你的 Markdown 文稿变成 PPT](https://sspai.com/post/40657)
-[Marp：用 Markdown「写」PPT 的新选择](https://sspai.com/post/55718)
+- [Reveal.js：把你的 Markdown 文稿变成 PPT](https://sspai.com/post/40657)
+- [Marp：用 Markdown「写」PPT 的新选择](https://sspai.com/post/55718)
 
 
 我们大多数人所理解的人工智能技术可能还停留在算法本身，但实际上真正的人工智能应用针对不同的领域，不仅有各自的算法，事实上还包括其他领域知识的应用，如自动化控制理论、电子技术、通信技术、机械工程等等，因此我们所理解的人工智能，应该是一个系统工程。网络中有一张图，讲述的是人工智能的深渊，毫不夸张的说，这其中的随便挑一项技术都是科研学者花费大量时间和精力去研究的，很少有人能够全面了解所有知识领域。
@@ -1319,9 +1196,3 @@ API 市场竞争程度丶输入输出限制丶定价丶及可替代的程序库�
 这造成了一方面产品在研发阶段投入的成本具有不确定性，另一方面技术的预期效果也比较难评估。
 
 制定产品的定价策略，而是需要站在用户角度考虑产品定价策略，深入理解场景和用户的痛点在哪里。
-
-
-
-
-
-

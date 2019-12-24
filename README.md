@@ -486,7 +486,7 @@ base64 转图片 python [python 将 base64 字符串还原成图片保存，代�
 
 生成的1.jpg在和生成他的代码放在同一文件夹中所以不用担心找不到所以就是可以来查看
 
-
+![生成的1.jpg在文档中位置](https://images.gitee.com/uploads/images/2019/1224/194055_126979d3_1831543.png "屏幕截图.png")
 
 
 
@@ -517,13 +517,84 @@ base64 转图片 python [python 将 base64 字符串还原成图片保存，代�
 
 [人脸融合官方文档](https://ai.baidu.com/ai-doc/FACE/5k37c1ti0)
 
+找到“Access Token 获取”。的文档
+[Access Token 获取](https://ai.baidu.com/ai-doc/REFERENCE/Ck3dwjhhu)
+
+access_token 的有效期为 30 天，切记需要每 30 天进行定期更换，或者每次请求都拉取新 token；
+
+```
+# 第一步先是来请求token
+
+# encoding:utf-8
+import requests 
+
+# client_id 为官网获取的AK=API Key， client_secret 为官网获取的SK=Secret Key
+host = 'https://aip.baidubce.com/oauth/2.0/token?grant_type=client_credentials&client_id=【官网获取的AK】&client_secret=【官网获取的SK】'  # Key 不要用双引号括起来只是部分参数而已
+response = requests.get(host)
+if response:
+    print(response.json())
+
+```
+>![百度人脸融合的token获取](https://images.gitee.com/uploads/images/2019/1224/194845_d6e00552_1831543.png "屏幕截图.png")
+
+
+调用API了
+
+[百度人脸融合API调用官方文档](https://ai.baidu.com/ai-doc/FACE/5k37c1ti0)
+[错误码对照](https://ai.baidu.com/ai-doc/FACE/5k37c1ujz)
+
+
+```
+
+# encoding:utf-8
+
+import requests
+
+'''
+人脸融合
+'''
+
+request_url = "https://aip.baidubce.com/rest/2.0/face/v1/merge"
+
+params = "{\"image_template\":{\"image\":\"sfasq35sadvsvqwr5q...\",\"image_type\":\"BASE64\",\"quality_control\":\"NONE\"},\"image_target\":{\"image\":\"sfasq35sadvsvqwr5q...\",\"image_type\":\"BASE64\",\"quality_control\":\"NONE\"}}"
+access_token = '[调用鉴权接口获取的token]'
+request_url = request_url + "?access_token=" + access_token
+headers = {'content-type': 'application/json'}
+response = requests.post(request_url, data=params, headers=headers)
+if response:
+    print (response.json())
 
 
 
 
 
+```
+
+但是是需要先来将图片进行base64编码后再来进行合成
+
+[Python3 - 中把图片进行 - base64 - 编码](https://blog.csdn.net/CoderPai/article/details/80222947)
+[诡异错误一： ValueError: embedded null character](https://blog.csdn.net/quintind/article/details/77371402)
 
 
+
+
+```
+import base64
+
+with open('1.jpg', 'rb') as f:  # 以二进制读取图片
+    data = f.read()
+    encodestr = base64.b64encode(data) # 得到 byte 编码的数据
+    print(str(encodestr,'utf-8'))  # 重新编码数据
+
+
+
+```
+
+
+在一系列的操作后就是出现了 {'error_code': 6, 'error_msg': 'No permission to access data'}
+ 没有权限，
+ 
+ 提交工单来进行处理
 
 
 

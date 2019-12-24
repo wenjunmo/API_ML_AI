@@ -413,30 +413,47 @@ except urllib.error.HTTPError as e:
 
 Face++在协助的情况下做了出来，感谢帮助
 
-```
 
-import requests
+查看上面的官方文档，无论如何都是调用缺少参数，缺少第二篇的参数于是就是请求协助
+
+回到最终的API调用文档中来，好好观察看出问题出现的地方是在哪里
+1.调用的API入门测试的文档这个不是一成不变的必须要来依靠示例来进行修改并且知道是什么样子的参数调用才可以来进行使用，
+第一次直接就是调用了原始文档，吧并且将人脸融合的示例文档来进行添加就是没有办法还是报错：缺少必要的参数"error_message":"MISSING_ARGUMENTS: merge_url, merge_file, merge_base64"}
+
+2.修改参数名称和参数的位置，仔细观察data的书写方式只有一个是上传文件，但是人脸融合必须是有一个模板图一个融合图是上传两个图片猜对，但是将data的fe修改后也同样是不可以，，所以说文档代码示例给得不明不白必须是自己要学会使用requests库来进行调用，不能够依靠初始的API调用代码
+3.在@煜华帮助下来重写reauests的调用
+代码如下
+
+```
+# 第一块
+import requests  # 导入requests库
+
+# 第二块
 url= "https://api-cn.faceplusplus.com/imagepp/v1/mergeface"
 key = "jjT7ZzAzwiHZ7bcVGicD6ajkER7YXsaH"
-secret = "Vjo_hOWLd8GUcFV0d_tjGtlWf0nATCw-"
+secret = "Vjo_hOWLd8GUcFV0d_tjGtlWf0nATCw-"                    # 3个必备的参数
+
 files={
-    'template_file':('mouluren.jpg',open(r'H:\Junior_Study\09_API_AI_ML_\week16\test\mouluren.jpg','rb')),
-    'merge_file':('xusong.jpg',open(r'H:\\Junior_Study\09_API_AI_ML_\week16\test\xusong.jpg','rb')) # requests 发送 / 上传多个文件
-    
+    'template_file':('mouluren.jpg',open(r'H:\Junior_Study\09_API_AI_ML_\week16\test\mouluren.jpg','rb')), 
+    'merge_file':('xusong.jpg',open(r'H:\\Junior_Study\09_API_AI_ML_\week16\test\xusong.jpg','rb'))      
 }
+
+# requests 发送 / 上传多个文件，文档明确表示需要两个上传文件，一张模板图一张融合图，将使用requests上传本地文件
+
+# 第三块
+
 data={
     'api_key':key,
     'api_secret':secret,
-    
 }
 
 rdata=requests.post(url,data,files=files)
-rdata
+rdata                                           # 返回post请求
 
-rdata.json()
+rdata.json()                                    # 输出合成图片的base64
 
 
-# 转换
+# 第四块——转换
 
 
 import base64 
@@ -446,17 +463,28 @@ file=open('1.jpg','wb')
 file.write(idata)
 file.close()
 
-
-
-
-
 ```
 
+报错信息：
+[Python 报错：SyntaxError: (unicode error) 'unicodeescape' codec can't decode bytes in position 2-3:，其实就是转义的问题就是需要//来进行转义](https://blog.csdn.net/caibaoH/article/details/78335094)
+
+[python 的 requests 发送 / 上传多个文件，看好字典类型的 files 参数的应用](https://blog.csdn.net/five3/article/details/74913742)
+[Python -- post 方式上传文件:
+files = {'file': open('D:/test.apk', 'rb')}    ](https://blog.csdn.net/wudj810818/article/details/50903416)
+
+
+base64 转图片 python [python 将 base64 字符串还原成图片保存，代码简写](https://blog.csdn.net/QZC295919009/article/details/42712801)
 
 
 
+代码在jupyternotebook截图
+
+>![Face++人脸融合requests1](https://images.gitee.com/uploads/images/2019/1224/193433_4f11cb3e_1831543.png "屏幕截图.png")
+
+>![Face++人脸融合requests2](https://images.gitee.com/uploads/images/2019/1224/193612_3e979b83_1831543.png "屏幕截图.png")
 
 
+生成的1.jpg在和生成他的代码放在同一文件夹中所以不用担心找不到所以就是可以来查看
 
 
 

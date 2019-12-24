@@ -411,7 +411,46 @@ except urllib.error.HTTPError as e:
 
 
 
+Face++在协助的情况下做了出来，感谢帮助
 
+```
+
+import requests
+url= "https://api-cn.faceplusplus.com/imagepp/v1/mergeface"
+key = "jjT7ZzAzwiHZ7bcVGicD6ajkER7YXsaH"
+secret = "Vjo_hOWLd8GUcFV0d_tjGtlWf0nATCw-"
+files={
+    'template_file':('mouluren.jpg',open(r'H:\Junior_Study\09_API_AI_ML_\week16\test\mouluren.jpg','rb')),
+    'merge_file':('xusong.jpg',open(r'H:\\Junior_Study\09_API_AI_ML_\week16\test\xusong.jpg','rb')) # requests 发送 / 上传多个文件
+    
+}
+data={
+    'api_key':key,
+    'api_secret':secret,
+    
+}
+
+rdata=requests.post(url,data,files=files)
+rdata
+
+rdata.json()
+
+
+# 转换
+
+
+import base64 
+
+idata=base64.b64decode(rdata.json()['result'])
+file=open('1.jpg','wb')
+file.write(idata)
+file.close()
+
+
+
+
+
+```
 
 
 

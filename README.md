@@ -492,7 +492,7 @@ base64 转图片 python [python 将 base64 字符串还原成图片保存，代�
 
 
 
-- 腾讯AI开放平台人脸融合没有因为还没有研制出来所以就是没有直接不考虑
+- 
 
 
 
@@ -1131,26 +1131,7 @@ test.mp3 文件生成的位置截图
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
  
-
-
-
 
 
 
@@ -1164,42 +1145,49 @@ test.mp3 文件生成的位置截图
 判断最实用的
 比较主要竞争者合比较次的竞争者，成熟度丶性价比等比较来做好表格
 
+人脸融合
+
+
+Face++人脸融合
+
+>![Face++人脸融合](https://images.gitee.com/uploads/images/2019/1224/214239_a66bc4f5_1831543.png "屏幕截图.png")
+
+[Face++人像处理API价格](https://www.faceplusplus.com.cn/v2/pricing-details/#api_4)
+
+>![Face++人像处理API价格](https://images.gitee.com/uploads/images/2019/1224/214630_a1ec1836_1831543.png "屏幕截图.png")
 
 
 
+百度AI人脸融合
+![百度AI人脸融合](https://images.gitee.com/uploads/images/2019/1224/215101_62b9386f_1831543.png "屏幕截图.png")
 
-1. 人脸识别-人脸检测与属性分析
+[百度AI处理定价](https://ai.baidu.com/ai-doc/FACE/Ck37c1lmj)
 
-- 旷世Face++人脸识别
-
-
-
-![Face++Face](https://images.gitee.com/uploads/images/2019/1211/083658_bc4cf548_1831543.png "屏幕截图.png")
+![百度云处理API定价](https://images.gitee.com/uploads/images/2019/1224/215533_293e7a7d_1831543.png "屏幕截图.png")
 
 
-- 腾讯AI开放平台人脸识别
+成熟度丶性价比
+通过上述的对比和使用，Face的文档会更加成熟于百度的文档，并且调用需要的权限比较少，少了需要获取access_token这一步，并且代码是有python版本和各种版本对开发者还是比较友善的，但是就是代码给得不够明确和完善必须要开发者来直接进行提取，开发效率较低没有符合预期那么好
 
-![TencentFace](https://images.gitee.com/uploads/images/2019/1211/083940_ef1ea3b9_1831543.png "屏幕截图.png")
-
-- Axure人脸识别
-
-- 百度AI开放平台人脸识别
-
-![baiduFace](https://images.gitee.com/uploads/images/2019/1211/084319_597fac32_1831543.png "屏幕截图.png")
+价格的对比
 
 
-2. 语音识别
+腾讯AI开放平台人脸融合没有因为还没有研制出来所以就是没有直接不考虑
 
-- 科大讯飞语音识别
 
-![XunfeiVoice](https://images.gitee.com/uploads/images/2019/1211/084823_cbe441aa_1831543.png "屏幕截图.png")
 
-- 腾讯AI开放平台语音识别
+语音合成
 
-![TencentVoicelab](https://images.gitee.com/uploads/images/2019/1211/085133_7012276f_1831543.png "屏幕截图.png")
-![TencentVoiceChat](https://images.gitee.com/uploads/images/2019/1211/085308_712c8375_1831543.png "屏幕截图.png")
+科大
 
-- 百度AI开放平台语音识别
+百度
+
+腾讯
+
+网易AI开放平台语音合成并没有开放使用网页端没有，只有微信小程序体验版，限制50字，语速只有正常慢速快速之分，没有API可以调用
+
+
+
 
 
 

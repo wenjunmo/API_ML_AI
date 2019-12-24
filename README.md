@@ -479,15 +479,10 @@ F:/eclipse_workspace/machine_learning_example/Ch02/trainningDigits/0_38.txt ，�
 F:\eclipse_workspace\machine_learning_example\Ch02\trainningDigits\0_38.txt
 ————————————————
 版权声明：本文为CSDN博主「桂小林」的原创文章，遵循 CC 4.0 BY-SA 版权协议，转载请附上原文出处链接及本声明。
-原文链接：https://blog.csdn.net/quintind/article/details/77371402```
+原文链接：https://blog.csdn.net/quintind/article/details/77371402
 
 
 在 stackoverflow АлексейСеменихин的回答也是一样-似乎您在使用字符 “\” 和 “ /” 时遇到了问题。 如果您在输入中使用它们 - 尝试将它们更改为另一种.. [使用 open（）时出现 “ValueError：嵌入的空字符”](https://stackoverflow.com/questions/33977519/valueerror-embedded-null-character-when-using-open/33981557)
-
-
-
-
-```
 
 
 

@@ -780,6 +780,114 @@ CUID = "123456PYTHON";
 
 ```
 
+还有一种来生成python 的百度语音合成方法智能语音
+这个也是百度云的项目第一种实现方式
+
+百度云来调取API来进行语音合成
+
+[百度智能云](https://cloud.baidu.com/)
+
+[Python 实现百度云API语音合成](https://www.codeleading.com/article/89462502729/;jsessionid=51D7386B97ED1DE97DB1033D1A6D7047)
+
+其实获取ID等之类的和上面的文档是一样的
+百度大脑的后台就是百度智能云是一样的道理
+
+查看的路径也是一样就是在应用管理里面来查看就是一样的
+
+
+
+
+
+```
+
+from aip import AipSpeech # 在导入模块之前一定要查看是否已经有此模块，没有就是要来下载百度云的API SDK ，在jupyternotebook 就是打开 在anoconda prompt 来 pip install baidu-aip
+
+
+""" 你的 APPID AK SK """
+# 去百度云申请一个账号然后创建API接口              # 就是你要新建应用才能查看下面三种东西
+APP_ID = 'your_APP_ID'                          # 你的APP_ID
+API_KEY = 'your_API_KEY'                        # 你的API_KEY
+SECRET_KEY = 'your_SECRET_KEY'                  # 你的SECRET_KEY
+
+client = AipSpeech(APP_ID, API_KEY, SECRET_KEY)
+
+text = input("请输入转换为语音的文字：")          # 这个是输入框，不要改动，是在代码运行后输入你想要转换为语音的文字，比如：我是产品小白
+result = client.synthesis(text, 'zh', 1, {
+    'vol': 5,
+    'spd': 5,
+    'pit': 5,
+    'per': 3,
+})
+outfile = input("请输入音频输出路径(绝对路径，类似于F:\xxx.mp3)： ")   # 这个也是输入框，但是你可以填想要保存文件的路径请输入音频输出路径(绝对路径，类似于F:\xxx.mp3)，但是代码运行后就是在输入框里面写上要生成的音频文件的全称及后缀比如：测试.mp3
+
+# 识别正确返回语音二进制 错误则返回dict 参照下面错误码
+if not isinstance(result, dict):
+    with open(outfile, 'wb') as f:
+        f.write(result)
+input("转换成功!")                                                   # 产生结束后要来输入一句话，最后会输出这句话来结束整个流程
+
+
+```
+
+第一次是报错没有API这个模块所以就是要来导入
+
+他应该是有使用了sdk python
+
+安装使用 Python SDK 有如下方式：
+
+如果已安装 pip，执行 pip install baidu-aip 即可。试试
+
+在anoconda prompt 来 pip install baidu-aip
+
+现在下载 baidu-aip 的 sdk才可以来调用模块
+
+所以下载好后就是重新来运行代码
+
+
+代码运行截图
+第一步：
+
+>![百度云1](https://images.gitee.com/uploads/images/2019/1224/124846_1ad9f3a3_1831543.png "屏幕截图.png")
+
+>![百度云2](https://images.gitee.com/uploads/images/2019/1224/125014_4137f760_1831543.png "屏幕截图.png")
+
+
+>![百度云3](https://images.gitee.com/uploads/images/2019/1224/125153_8fb20156_1831543.png "屏幕截图.png")
+
+>![百度云4](https://images.gitee.com/uploads/images/2019/1224/125309_b575162a_1831543.png "屏幕截图.png")
+
+完成
+
+
+但是他不是生成在你指定的文件目录而是和result.mp3一样都是生成和生成他的这段代码所在的文件夹中
+
+生成的文件保存位置截图
+
+>![百度云文件 小白.mp3 生成位置](https://images.gitee.com/uploads/images/2019/1224/125544_ed80df54_1831543.png "屏幕截图.png")
+
+
+
+
+百度云调用语音合成的第三种方法
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
 
 
 

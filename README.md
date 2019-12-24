@@ -340,7 +340,9 @@ GitHub 代码下载地址：
 [Merge Face API (V1):使用本 API，可以对模板图和融合图中的人脸进行融合操作](https://console.faceplusplus.com.cn/documents/20813963)
 Face++旷视 人工智能开放-技术能力-人像处理-人脸融合（点击会跳转到图像识别/功能的API里面，应该是被归类为识物里面）
 
+
 ```
+
 # -*- coding: utf-8 -*-
 import urllib.request
 import urllib.error
@@ -396,7 +398,10 @@ try:
     print(qrcont.decode('utf-8'))
 except urllib.error.HTTPError as e:
     print(e.read().decode('utf-8'))
+    
 ```
+
+
 
 [react-native 使用 Face++ 识别身份证，读取信息展示](http://www.pianshen.com/article/266759574/)
 [markdown：API 编写模板](https://blog.csdn.net/weixin_33871366/article/details/94609694)

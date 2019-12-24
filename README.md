@@ -607,8 +607,12 @@ if response:
  
  
  
- 提交工单来进行处理
+ 提交工单来进行处理，反馈挺快的要求重新获取token试试
  
+ 返回就是直接来返回json格式了
+ 
+ 
+ ![获取返回的json值](https://images.gitee.com/uploads/images/2019/1224/211001_02d60e88_1831543.png "屏幕截图.png")
  
 
 

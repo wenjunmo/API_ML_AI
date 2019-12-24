@@ -544,6 +544,36 @@ if response:
 [错误码对照](https://ai.baidu.com/ai-doc/FACE/5k37c1ujz)
 
 
+但是是需要先来将图片进行base64编码后再来进行合成
+
+[Python3 - 中把图片进行 - base64 - 编码-用了这个](https://blog.csdn.net/CoderPai/article/details/80222947)
+[诡异错误一： ValueError: embedded null character](https://blog.csdn.net/quintind/article/details/77371402)
+
+[Python 将图片转换为 base64 编码](https://blog.csdn.net/J__Max/article/details/82424551)
+
+
+```
+import base64
+
+with open('1.jpg', 'rb') as f:  # 以二进制读取图片
+    data = f.read()
+    encodestr = base64.b64encode(data) # 得到 byte 编码的数据
+    print(str(encodestr,'utf-8'))  # 重新编码数据
+
+```
+
+现将图片转换为base64
+
+>![两张图片都必须是在同一个文件夹和代码放在一起](https://images.gitee.com/uploads/images/2019/1224/204058_3317173c_1831543.png "屏幕截图.png")
+两张图片都必须是在同一个文件夹和代码放在一起
+
+>![2图片的储存在同一个文件下](https://images.gitee.com/uploads/images/2019/1224/204704_aa42bdcf_1831543.png "屏幕截图.png")
+
+>![上传两张图片的base64码](https://images.gitee.com/uploads/images/2019/1224/204238_8e36c589_1831543.png "屏幕截图.png")
+
+
+人脸融合调用代码
+
 ```
 
 # encoding:utf-8
@@ -564,37 +594,22 @@ response = requests.post(request_url, data=params, headers=headers)
 if response:
     print (response.json())
 
-
-
-
-
 ```
-
-但是是需要先来将图片进行base64编码后再来进行合成
-
-[Python3 - 中把图片进行 - base64 - 编码](https://blog.csdn.net/CoderPai/article/details/80222947)
-[诡异错误一： ValueError: embedded null character](https://blog.csdn.net/quintind/article/details/77371402)
-
-
-
-
-```
-import base64
-
-with open('1.jpg', 'rb') as f:  # 以二进制读取图片
-    data = f.read()
-    encodestr = base64.b64encode(data) # 得到 byte 编码的数据
-    print(str(encodestr,'utf-8'))  # 重新编码数据
-
-
-
-```
-
 
 在一系列的操作后就是出现了 {'error_code': 6, 'error_msg': 'No permission to access data'}
  没有权限，
  
+ >![没有权限](https://images.gitee.com/uploads/images/2019/1224/205142_8a4f8fb4_1831543.png "屏幕截图.png")
+ 
+ [【应用勾选】AI 应用如何查看是否勾选](https://ai.baidu.com/forum/topic/show/492868)
+ [{"error_msg":"No permission to access data","error_code":6} 处理方案](https://www.cnblogs.com/erph/p/9186204.html)
+ 
+ 
+ 
+ 
  提交工单来进行处理
+ 
+ 
 
 
 

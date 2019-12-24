@@ -340,8 +340,6 @@ GitHub 代码下载地址：
 [Merge Face API (V1):使用本 API，可以对模板图和融合图中的人脸进行融合操作](https://console.faceplusplus.com.cn/documents/20813963)
 Face++旷视 人工智能开放-技术能力-人像处理-人脸融合（点击会跳转到图像识别/功能的API里面，应该是被归类为识物里面）
 
-
-
 ```
 # -*- coding: utf-8 -*-
 import urllib.request
@@ -398,34 +396,185 @@ try:
     print(qrcont.decode('utf-8'))
 except urllib.error.HTTPError as e:
     print(e.read().decode('utf-8'))
-
-
-
-
-
-
 ```
 
 [react-native 使用 Face++ 识别身份证，读取信息展示](http://www.pianshen.com/article/266759574/)
 [markdown：API 编写模板](https://blog.csdn.net/weixin_33871366/article/details/94609694)
 [C语言写的 FacePlusPlus，“error_message”：“ MISSING_ARGUMENTS：api_key”，带有 React Native 提取请求](https://stackoverflow.com/questions/48652293/faceplusplus-error-message-missing-arguments-api-key-with-react-native-f?rq=1)
 [非常详细的教程用Face++来人脸融合 手把手教学](http://help.ih5.cn/question/3276.html)
+[纯前端实现人脸融合 - 调用 Face++ 的人脸融合 API 接口实现 用C来写得](https://blog.csdn.net/gaofei880219/article/details/80805558)
 
 
 
-
-
-
-
-- 旷世Face++人脸识别
 - 腾讯AI开放平台人脸识别
-- Axure人脸识别
 - 百度AI开放平台人脸识别
 
-2. 语音识别
+2. 语音合成
+
 - 科大讯飞语音识别
 - 腾讯AI开放平台语音识别
 - 百度AI开放平台语音识别
+
+
+
+网易AI语音合成没有文档
+科大讯飞的语音合成找不到文档就是按照上课来进行书写代码的调用了
+Face++没有语音合成
+腾讯没有语音合成的pythn代码不友好只有PHP的代码
+
+[吐槽腾讯语音合成python 腾讯语音合成](https://www.cnblogs.com/zepc007/p/10360557.html)在代码层次上讲，官方压根没有合成示例文档啊 (咆哮 ing)，全自己摸索的啊 (咆哮 ing)，SDK 都开发出来了，示例代码给一下能死啊 (咆哮 ing)，怪不得没人用啊 (咆哮 ing)！在合成效果上讲，声音难听爆了有木有，语音文件还得解码再 I/O, 吃饱了撑的了啊，还是那句话：怪不得没人用，百度语音合成效果比你强多了。
+
+[良心博主：Python 调用腾讯 API 合成语音](https://www.codeleading.com/article/72342390067/)
+[上面文章的CSDN出处](https://blog.csdn.net/hui_0_/article/details/102675804)
+
+实验心得
+
+
+先来使用腾讯语音合成
+
+人脸融合没有开放就是没有成熟
+[腾讯AI开放平台](https://ai.qq.com/)-控制台-创建应用-在应用管理找到应用信息里面的APPID APPKEY
+首页技术引擎-语音合成-语音合成 [语音合成](https://ai.qq.com/product/aaitts.shtml)
+[技术文档 PHP](https://ai.qq.com/doc/aaitts.shtml)
+
+参考良心博主的代码
+说明
+1. 需要去官网 https://ai.qq.com/ 创建应用，得到 APPID 和 APPKEY，然后将代码中默认的 appid = '1000001’和 appkey = 'a95eceb1ac8c24ee28b70f7dbba912bf’替换一下。
+2.text 是想要被转换成语音的文字，这个文字似乎不能太长，否则特别容易请求失败。
+3. 如果一切正常，会在代码所在目录下新增一个 wav 格式的音频文件，这个就是返回的腾讯合成的音频。
+4. 有时候会提示‘system busy, please try again later’，原因暂时不清楚。
+
+改好后要来对参数进行查看报错信息
+[异常处理](https://ai.qq.com/doc/returncode.shtml)
+完成后出现了ret: 16389查看异常处理是因为缺失 API 权限 请检查应用是否勾选当前 API 所属接口的权限 应该是接口没有被允许，所以要返回控制台为应用来添加能力库，在能力库里面找到语音合成并且点击接入能力到该创建的应用下面才可以调用权限
+完成后出现了ret: -2147483634是表示系统出错，例如网络超时，那就来刷新一下还是msg: system busy, please try again later
+退出来再来刷新一遍就是成功但是还是会报错：ret: 0 msg: ok 68     filepath = path.dirname(__file__)  #目录 NameError: name '__file__' is not defined 目录没有被定义就是我没有定义好目录在哪里，
+定义好后又发现诡异的报错：fout = open(filepath+file, 'wb'       ValueError: embedded null character
+这是写入文件的内容而不是可以乱删除，可能是文件的路径/\的区别
+[诡异错误一： ValueError: embedded null character](https://blog.csdn.net/quintind/article/details/77371402)
+所以就是这样子的区别：
+
+1、通过测试，确定错误确实是文件读取语句；
+
+2、是否是文件中包含 null 字符呢？用 ultraedit 工具用 16 进制形式检查数据文件，没有发现有 null 字符；
+
+3、是否是因为 Windows 中的编码和 python 中的编码形式不一样造成的呢？查看到文件编码为 GBK 格式，但 python 是可以正确读取 GBK 文件的，试了其它 GBK 文件，读取没有任何问题；
+
+4、是不是因为文件名太长？把数据文件放在当前文件夹下，尝试读取确实没有问题。但真的是文件名太长的原因吗？这时候我才发现文件名中有个 ‘\0’ ，才如梦初醒。
+
+注意：一般情况下，Python 解释器会将遇到的‘\’识别为路径，会自动增加一个’\’以便和转义字符进行区分，但若遇到转义字符则不增加‘\’。
+
+例如：上述文件名将被转换为 F:\eclipse_workspace\machine_learning_example\Ch02\trainingDigits\0_38.txt。因而出错。
+
+文件路径中若包含‘\0’、’\t’ 等特殊转义字符时要特别注意。
+
+推荐文件路径写法：
+
+F:/eclipse_workspace/machine_learning_example/Ch02/trainningDigits/0_38.txt ，斜杠反过来了，这样就不会出现歧义了。
+F:\eclipse_workspace\machine_learning_example\Ch02\trainningDigits\0_38.txt
+————————————————
+版权声明：本文为CSDN博主「桂小林」的原创文章，遵循 CC 4.0 BY-SA 版权协议，转载请附上原文出处链接及本声明。
+原文链接：https://blog.csdn.net/quintind/article/details/77371402```
+
+
+在 stackoverflow АлексейСеменихин的回答也是一样-似乎您在使用字符 “\” 和 “ /” 时遇到了问题。 如果您在输入中使用它们 - 尝试将它们更改为另一种.. [使用 open（）时出现 “ValueError：嵌入的空字符”](https://stackoverflow.com/questions/33977519/valueerror-embedded-null-character-when-using-open/33981557)
+
+
+
+
+```
+
+
+
+
+```
+# -*- coding: utf-8 -*-
+"""
+Created on Mon Oct 21 20:57:24 2019
+
+@author: HUI
+"""
+import time
+from os import path
+from urllib.request import urlopen
+from urllib.parse import urlencode
+from urllib.parse import quote_plus
+import hashlib
+import random
+import base64
+
+#生成sign 
+def getReqSign(params,key):
+    dict_kl = sorted(params)
+    s = ''
+    for k in dict_kl:
+        v = params[k]
+        if v != '':
+            v0 = str(quote_plus(str(v))) 
+            s = s + k + '=' + v0 + '&'
+    s = s + 'app_key=' + key;          
+    m = hashlib.md5() 
+    m.update(s.encode("utf8"))
+    sign = m.hexdigest()
+    sign = sign.upper()
+    print('sign:',sign)
+    return sign
+                                                      # 下面的1ID与KEY都是需要在控制台应用里面将语音合成能力库来接入能力才有权限
+appid = '1000001'                                     # 换成自己的ID
+appkey = 'a95eceb1ac8c24ee28b70f7dbba912bf'           # 换成自己的KEY
+text = '腾讯ai语音合成'                                # 改变文本输入的内容，不能太长会容易请求失败
+url = 'https://api.ai.qq.com/fcgi-bin/aai/aai_tts'
+time_s = int(time.time())
+m = hashlib.md5()
+m.update(str(time_s).encode("utf8"))
+nonce_s = m.hexdigest()
+nonce_s = nonce_s[0:random.randint(1,31)]
+params ={'app_id':appid,
+         'speaker':'1',
+         'format':'2',
+         'volume': '0',
+         'speed':'100',
+         'text':text,
+         'aht':'0',
+         'apc':'58',
+         'time_stamp':time_s,
+         'nonce_str':nonce_s,
+         'sign':''
+         }
+params['sign'] = getReqSign(params,appkey)
+s = urlencode(params)
+res = urlopen(url,s.encode()) #网络请求
+res_str = res.read().decode()
+res_dict = eval(res_str)
+print('return result : ')
+print('ret:',res_dict['ret'])
+print('msg:',res_dict['msg'])
+
+if res_dict['ret'] == 0:
+    res_data = res_dict['data']
+    res_data_format = res_data['format']
+    res_data_speech = res_data['speech']
+    res_data_md5sum = res_data['md5sum']
+    filepath = path.dirname(__file__)  #目录                          # 必须更改为自己想要保存的目录下面，但是目录里面只能用/不能用\，否则下面以fout开头的三行代码会报错，三行是写入代码不可以删除，并且报错信息会是 ValueError: embedded null character
+    file = '/wav01.wav'
+    base64_data = res_data_speech
+    ori_image_data = base64.b64decode(base64_data)
+    fout = open(filepath+file, 'wb')
+    fout.write(ori_image_data)
+    fout.close()
+    print("output file '",filepath,file,"' success")
+print('over')
+
+```
+
+**腾讯语音合成调取成功**
+
+
+
+
+
+
+
 
 
 

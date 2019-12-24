@@ -334,7 +334,88 @@ GitHub 代码下载地址：
 
 
 
-1. 人脸识别
+1. 人脸融合
+
+- [Face++ 人脸融合API使用文档](https://console.faceplusplus.com.cn/service/image/intro)
+[Merge Face API (V1):使用本 API，可以对模板图和融合图中的人脸进行融合操作](https://console.faceplusplus.com.cn/documents/20813963)
+Face++旷视 人工智能开放-技术能力-人像处理-人脸融合（点击会跳转到图像识别/功能的API里面，应该是被归类为识物里面）
+
+
+
+```
+# -*- coding: utf-8 -*-
+import urllib.request
+import urllib.error
+import time
+
+http_url = 'https://api-cn.faceplusplus.com/facepp/v3/detect'
+key = "填上你的KEY"
+secret = "填上你的SECRET"
+filepath = r"本地图片的路径"
+
+boundary = '----------%s' % hex(int(time.time() * 1000))
+data = []
+data.append('--%s' % boundary)
+data.append('Content-Disposition: form-data; name="%s"\r\n' % 'api_key')
+data.append(key)
+data.append('--%s' % boundary)
+data.append('Content-Disposition: form-data; name="%s"\r\n' % 'api_secret')
+data.append(secret)
+data.append('--%s' % boundary)
+fr = open(filepath, 'rb')
+data.append('Content-Disposition: form-data; name="%s"; filename=" "' % 'image_file')
+data.append('Content-Type: %s\r\n' % 'application/octet-stream')
+data.append(fr.read())
+fr.close()
+data.append('--%s' % boundary)
+data.append('Content-Disposition: form-data; name="%s"\r\n' % 'return_landmark')
+data.append('1')
+data.append('--%s' % boundary)
+data.append('Content-Disposition: form-data; name="%s"\r\n' % 'return_attributes')
+data.append(
+    "gender,age,smiling,headpose,facequality,blur,eyestatus,emotion,ethnicity,beauty,mouthstatus,eyegaze,skinstatus")
+data.append('--%s--\r\n' % boundary)
+
+for i, d in enumerate(data):
+    if isinstance(d, str):
+        data[i] = d.encode('utf-8')
+
+http_body = b'\r\n'.join(data)
+
+# build http request
+req = urllib.request.Request(url=http_url, data=http_body)
+
+# header
+req.add_header('Content-Type', 'multipart/form-data; boundary=%s' % boundary)
+
+try:
+    # post data to server
+    resp = urllib.request.urlopen(req, timeout=5)
+    # get response
+    qrcont = resp.read()
+    # if you want to load as json, you should decode first,
+    # for example: json.loads(qrount.decode('utf-8'))
+    print(qrcont.decode('utf-8'))
+except urllib.error.HTTPError as e:
+    print(e.read().decode('utf-8'))
+
+
+
+
+
+
+```
+
+[react-native 使用 Face++ 识别身份证，读取信息展示](http://www.pianshen.com/article/266759574/)
+[markdown：API 编写模板](https://blog.csdn.net/weixin_33871366/article/details/94609694)
+[C语言写的 FacePlusPlus，“error_message”：“ MISSING_ARGUMENTS：api_key”，带有 React Native 提取请求](https://stackoverflow.com/questions/48652293/faceplusplus-error-message-missing-arguments-api-key-with-react-native-f?rq=1)
+[非常详细的教程用Face++来人脸融合 手把手教学](http://help.ih5.cn/question/3276.html)
+
+
+
+
+
+
 
 - 旷世Face++人脸识别
 - 腾讯AI开放平台人脸识别

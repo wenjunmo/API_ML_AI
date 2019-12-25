@@ -220,6 +220,30 @@ APP 形式无疑是一种可以涵盖更多不同信息形式的新型毕业纪�
 
 设计APP界面布局达到可视性从而使用户产生可记忆性，流畅的APP交互流程设计可使用户提高对产品的使用效率，增强用户对产品的可学习性
 
+|核心功能||交互设计|界面设计|
+|---------|-------|-------|
+|你合我猜|上传人脸照片与在线输入语音文本|简洁大方|
+|猜测推荐|协同过滤的推荐算法推荐用户界面|简洁大方|
+
+
+[智能毕业纪念册](http://nfunm065.gitee.io/api_ml_ai_final/#g=1&p=%E6%99%BA%E8%83%BD%E6%AF%95%E4%B8%9A%E7%BA%AA%E5%BF%B5%E5%86%8C)
+
+消息页
+>![消息页](https://images.gitee.com/uploads/images/2019/1225/090016_aee6acc4_1831543.png "屏幕截图.png")
+
+推荐页
+>![推荐页](https://images.gitee.com/uploads/images/2019/1225/090111_350305df_1831543.png "屏幕截图.png")
+>![推荐页](https://images.gitee.com/uploads/images/2019/1225/090151_73a5c46a_1831543.png "屏幕截图.png")
+
+
+定制页
+>![定制页](https://images.gitee.com/uploads/images/2019/1225/090317_ded787c9_1831543.png "屏幕截图.png")
+>![定制页](https://images.gitee.com/uploads/images/2019/1225/090345_f7efc934_1831543.png "屏幕截图.png")
+
+
+我的页
+>![我的页](https://images.gitee.com/uploads/images/2019/1225/090247_d4ca2387_1831543.png "屏幕截图.png")
+
 
 
 
@@ -238,6 +262,8 @@ APP 形式无疑是一种可以涵盖更多不同信息形式的新型毕业纪�
 
 流程图要好好写出来
 
+>![产品前端架构](https://images.gitee.com/uploads/images/2019/1225/085733_fa83e0e8_1831543.png "屏幕截图.png")
+>产品CMS后台架构
 
 
 产品结构图
@@ -256,6 +282,11 @@ APP 形式无疑是一种可以涵盖更多不同信息形式的新型毕业纪�
 - 原型文件要上传GitHub来进行可下载
 
 GitHub 代码下载地址：
+[Fork地址](https://gitee.com/NFUNM065/API_ML_AI_final)
+
+
+[智能毕业纪念册](http://nfunm065.gitee.io/api_ml_ai_final/#g=1&p=%E6%99%BA%E8%83%BD%E6%AF%95%E4%B8%9A%E7%BA%AA%E5%BF%B5%E5%86%8C)
+
 
 
 

@@ -361,14 +361,16 @@ GitHub 代码下载地址：
 ### :star: 使用水平
 (在 PRD 文件中是否有说明且展示，核心功能所应用的 API 之输入及输出 1%*5=5%)
 
-概要：核心功能你合我猜的代码展示——人脸融合与语音合成API(同一公司平台的不同类型API)+协同过滤推荐算法
+概要：核心功能 **你合我猜** 的代码展示—— **人脸融合与语音合成API** (同一公司平台的不同类型API) + **协同过滤推荐算法**
 
-:computer: 1. 人脸融合
+:computer: 1. **人脸融合**
 
+**Face++-人脸融合API**
 
-代码在 jupyternotebook 截图
+jupyternotebook 截图
 
 >![Face++人脸融合requests1](https://images.gitee.com/uploads/images/2019/1224/193433_4f11cb3e_1831543.png "屏幕截图.png")
+
 >![Face++人脸融合requests2](https://images.gitee.com/uploads/images/2019/1224/193612_3e979b83_1831543.png "屏幕截图.png")
 
 
@@ -376,13 +378,15 @@ GitHub 代码下载地址：
 
 >![生成的1.jpg在文档中位置](https://images.gitee.com/uploads/images/2019/1224/194055_126979d3_1831543.png "屏幕截图.png")
 
+-------
 
-**百度大脑 AI开放平台 人脸融合API **
+**百度大脑AI开放平台-人脸融合API**
+
+jupyternotebook 截图
 
 >![百度人脸融合的token获取](https://images.gitee.com/uploads/images/2019/1224/194845_d6e00552_1831543.png "屏幕截图.png")
 
-但是是需要先来将图片进行base64编码后再来进行合成
-
+拿到了 access token 后，还需要将图片进行 base64 编码后再来进行合成
 
 ```
 import base64
@@ -393,41 +397,43 @@ with open('1.jpg', 'rb') as f:  # 以二进制读取图片
     print(str(encodestr,'utf-8'))  # 重新编码数据
 ```
 
-现将图片转换为base64
+将图片转换为base64
 
 >![两张图片都必须是在同一个文件夹和代码放在一起](https://images.gitee.com/uploads/images/2019/1224/204058_3317173c_1831543.png "屏幕截图.png")
 
-两张图片都必须是在同一个文件夹和代码放在一起
+两张图片放置的位置都必须是在同一个文件夹和将要运行的代码文件放在一起
 
 >![2图片的储存在同一个文件下](https://images.gitee.com/uploads/images/2019/1224/204704_aa42bdcf_1831543.png "屏幕截图.png")
+
 >![上传两张图片的base64码](https://images.gitee.com/uploads/images/2019/1224/204238_8e36c589_1831543.png "屏幕截图.png")
 
+最后得到 获取返回的json值
 
- 
- 
 >![获取返回的json值](https://images.gitee.com/uploads/images/2019/1224/211001_02d60e88_1831543.png "屏幕截图.png")
  
 
-:computer: 2. 语音合成
+:computer: 2. **语音合成**
 
-**腾讯AI开放平台语音合成**
+**腾讯AI开放平台-语音合成API**
 
-
-调用的代码截图展示：
+jupyternotebook 截图
 
 >![腾讯语音合成notebook代码截图](https://images.gitee.com/uploads/images/2019/1224/101352_71f36a7f_1831543.png "屏幕截图.png")
+
 >![腾讯语音合成wav01.wav存储位置截图](https://images.gitee.com/uploads/images/2019/1224/101547_57bc3ec5_1831543.png "屏幕截图.png")
 
-**百度AI语音合成**
 
 
-代码生成截图
+**百度大脑AI开放平台-语音合成API**
+
+
+jupyternotebook 截图
+
+第一种调用办法：
 
 >![百度AI语音合成nupyternotebook运行成功](https://images.gitee.com/uploads/images/2019/1224/111344_f8a5df61_1831543.png "屏幕截图.png")
 
 因为是用jupyternotebook来进行打开并且存储的，那么生成的 result.mp3的文件就是可以保存生成在和书写这个代码的文件是放在一起的，不是notebok的目录，而是在哪个文件里面生成他就是在哪个文件夹里面找到生成的文件就是好了
-
-文件放置截图
 
 >![百度AI语音合成生成 result.mp3 生成位置](https://images.gitee.com/uploads/images/2019/1224/110947_c01f3dad_1831543.png "屏幕截图.png")
 
@@ -437,9 +443,10 @@ with open('1.jpg', 'rb') as f:  # 以二进制读取图片
 
 >![使用命令行来搜索生成 mp3 的具体位置](https://images.gitee.com/uploads/images/2019/1224/111716_81ed72ac_1831543.png "屏幕截图.png")
 
-另外一种办法
 
-代码运行截图
+
+
+第二种调用办法：
 
 >![百度云1](https://images.gitee.com/uploads/images/2019/1224/124846_1ad9f3a3_1831543.png "屏幕截图.png")
 
@@ -451,8 +458,6 @@ with open('1.jpg', 'rb') as f:  # 以二进制读取图片
 
 但是他不是生成在你指定的文件目录而是和result.mp3一样都是生成和生成他的这段代码所在的文件夹中
 
-生成的文件保存位置截图
-
 >![百度云文件 小白.mp3 生成位置](https://images.gitee.com/uploads/images/2019/1224/125544_ed80df54_1831543.png "屏幕截图.png")
 
 
@@ -461,13 +466,12 @@ with open('1.jpg', 'rb') as f:  # 以二进制读取图片
 
 上面的代码同时是直接就是来生成了 test.mp3 在和生成他的代码文件在同一个文件夹里面，虽然没有响应显示但是是真真实实生成了并且有内容
 
-代码运行截图
-
 >![百度云 test.mp3 生成](https://images.gitee.com/uploads/images/2019/1224/130950_50b6a743_1831543.png "屏幕截图.png")
 
-test.mp3 文件生成的位置截图
-
 >![test.mp3 生成的目录](https://images.gitee.com/uploads/images/2019/1224/131259_58e7fb59_1831543.png "屏幕截图.png")
+
+
+
 
 
 ### :star: 使用比较分析

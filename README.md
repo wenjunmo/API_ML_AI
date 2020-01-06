@@ -431,40 +431,45 @@ with open('1.jpg', 'rb') as f:  # 以二进制读取图片
 
 :computer: 2. **语音合成**
 
-**腾讯AI开放平台-语音合成API**
+<div align="center">
+  <h3>腾讯AI开放平台-语音合成API</h3>
+</div>
 
-jupyternotebook 截图
+[腾讯 AI 语音合成 python 示例代码地址](https://github.com/wenjunmo/API_ML_AI_SmartMemorial/blob/master/API%20%E5%8F%AF%E5%A4%8D%E7%94%A8%E4%BB%A3%E7%A0%81/%E8%85%BE%E8%AE%AF%20AI%20%E8%AF%AD%E9%9F%B3%E5%90%88%E6%88%90%20python%20%E7%A4%BA%E4%BE%8B.md)
 
-[GitHub代码地址](https://github.com/wenjunmo/API_ML_AI_SmartMemorial/blob/master/API%20%E5%8F%AF%E5%A4%8D%E7%94%A8%E4%BB%A3%E7%A0%81/%E8%85%BE%E8%AE%AF%20AI%20%E8%AF%AD%E9%9F%B3%E5%90%88%E6%88%90%20python%20%E7%A4%BA%E4%BE%8B.md)
+
+jupyternotebook 截图如下
 
 >![腾讯语音合成notebook代码截图](https://images.gitee.com/uploads/images/2019/1224/101352_71f36a7f_1831543.png "屏幕截图.png")
 
 >![腾讯语音合成wav01.wav存储位置截图](https://images.gitee.com/uploads/images/2019/1224/101547_57bc3ec5_1831543.png "屏幕截图.png")
 
+上面生成的文件会保存在 filepath 的上一层目录下
+
+-------
 
 
-**百度大脑AI开放平台-语音合成API**
+<div align="center">
+  <h3>百度大脑AI开放平台-语音合成API</h3>
+</div>
 
+jupyternotebook 截图如下
 
-jupyternotebook 截图
-
-[GitHub 3种 方法实现最终的调用结果](https://github.com/wenjunmo/API_ML_AI_SmartMemorial/blob/master/API%20%E5%8F%AF%E5%A4%8D%E7%94%A8%E4%BB%A3%E7%A0%81/%E7%99%BE%E5%BA%A6%20AI%20%E8%AF%AD%E9%9F%B3%E5%90%88%E6%88%90%20python%20%E7%A4%BA%E4%BE%8B.md)
+[百度 AI 语音合成 python 3种 示例代码地址](https://github.com/wenjunmo/API_ML_AI_SmartMemorial/blob/master/API%20%E5%8F%AF%E5%A4%8D%E7%94%A8%E4%BB%A3%E7%A0%81/%E7%99%BE%E5%BA%A6%20AI%20%E8%AF%AD%E9%9F%B3%E5%90%88%E6%88%90%20python%20%E7%A4%BA%E4%BE%8B.md)
 
 第一种调用办法：
 
 >![百度AI语音合成nupyternotebook运行成功](https://images.gitee.com/uploads/images/2019/1224/111344_f8a5df61_1831543.png "屏幕截图.png")
 
-因为是用jupyternotebook来进行打开并且存储的，那么生成的 result.mp3的文件就是可以保存生成在和书写这个代码的文件是放在一起的，不是notebok的目录，而是在哪个文件里面生成他就是在哪个文件夹里面找到生成的文件就是好了
+因为是用 jupyternotebook 来进行打开并且存储的，那么生成的 result.mp3 的文件就是可以保存生成在和书写这个代码的文件是放在一起的，不是jupyternotebook 的目录，而是在哪个文件里面生成它就是在哪个文件夹里面找到生成的文件就是好了
 
 >![百度AI语音合成生成 result.mp3 生成位置](https://images.gitee.com/uploads/images/2019/1224/110947_c01f3dad_1831543.png "屏幕截图.png")
 
-我在使用命令行来进行搜索，是因为当时没有找到，在文件快速访问里面也没有，后来可以下载everything很多人来推荐后面还是找哦命令行来进行下载
+当生成的文件在文件快速访问里面没有，推荐下载 everything 但还是使用命令行来进行搜索
 
 >dir C:\ G:\ H:\ W:\ X:\ /s /b | find "result.mp3"
 
 >![使用命令行来搜索生成 mp3 的具体位置](https://images.gitee.com/uploads/images/2019/1224/111716_81ed72ac_1831543.png "屏幕截图.png")
-
-
 
 
 第二种调用办法：
@@ -477,7 +482,7 @@ jupyternotebook 截图
 
 >![百度云4](https://images.gitee.com/uploads/images/2019/1224/125309_b575162a_1831543.png "屏幕截图.png")
 
-但是他不是生成在你指定的文件目录而是和result.mp3一样都是生成和生成他的这段代码所在的文件夹中
+但它不是生成在指定的文件目录而是和 result.mp3 一样都是生成和生成它的这段代码所在的文件夹中
 
 >![百度云文件 小白.mp3 生成位置](https://images.gitee.com/uploads/images/2019/1224/125544_ed80df54_1831543.png "屏幕截图.png")
 
@@ -485,14 +490,11 @@ jupyternotebook 截图
 将上面的代码来进行简化就是可以得到一个不用进行交互而是直接就是可以来进行输出，其实就是已经将需要输出的文本放进去直接来用就好了
 
 
-上面的代码同时是直接就是来生成了 test.mp3 在和生成他的代码文件在同一个文件夹里面，虽然没有响应显示但是是真真实实生成了并且有内容
+上面的代码同时是直接就是来生成了 test.mp3 在和生成它的代码文件在同一个文件夹里面，虽然没有响应显示但是是真真实实生成了并且有内容
 
 >![百度云 test.mp3 生成](https://images.gitee.com/uploads/images/2019/1224/130950_50b6a743_1831543.png "屏幕截图.png")
 
 >![test.mp3 生成的目录](https://images.gitee.com/uploads/images/2019/1224/131259_58e7fb59_1831543.png "屏幕截图.png")
-
-
-
 
 
 ### :star: 使用比较分析

@@ -27,6 +27,8 @@ if response:
 ### 可复用百度大脑人脸融合API调用代码
 
 ```
+### 直接调用并且按照说明修改必要参数
+
 # encoding:utf-8
 
 import requests

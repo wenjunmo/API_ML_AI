@@ -538,21 +538,23 @@ jupyternotebook 截图如下
 
 2.1 [百度AI 人脸融合 官网实验](https://ai.baidu.com/tech/face/merge)
 
-![百度AI人脸融合](https://images.gitee.com/uploads/images/2019/1224/215101_62b9386f_1831543.png "屏幕截图.png")
+>![百度AI人脸融合](https://images.gitee.com/uploads/images/2019/1224/215101_62b9386f_1831543.png "屏幕截图.png")
 
-2.2[百度AI人像处理API价格](https://ai.baidu.com/ai-doc/FACE/Ck37c1lmj)
+2.2 [百度AI人像处理API价格](https://ai.baidu.com/ai-doc/FACE/Ck37c1lmj)
 
-![度AI人像处理API价格](https://images.gitee.com/uploads/images/2019/1224/215533_293e7a7d_1831543.png "屏幕截图.png")
-
-
-成熟度丶性价比
-通过上述的对比和使用，Face的文档会更加成熟于百度的文档，并且调用需要的权限比较少，少了需要获取access_token这一步，并且代码是有python版本和各种版本对开发者还是比较友善的，但是就是代码给得不够明确和完善必须要开发者来直接进行提取，开发效率较低没有符合预期那么好
-
-价格的对比
+>![百度AI人像处理API价格](https://images.gitee.com/uploads/images/2019/1224/215533_293e7a7d_1831543.png "屏幕截图.png")
 
 
-腾讯AI开放平台人脸融合没有因为还没有研制出来所以就是没有直接不考虑
-人脸融合没有开放就是没有成熟
+|比较分析|Face++ 人脸融合|百度AI 人脸融合|腾讯AI 人脸融合|
+|-------|---------------|--------------|-------------|
+|优先级  |:one:          |:two:         |未开放       |
+|成熟度  | :star: :star: | :star:       |未开放       |
+|性价比  |按量:0.1元/次-低|前500次免费，超出 0.04元/次-高|未开放|
+|准确度  | :star: :star:  |:star:       |未开放       |
+|拓展性  | :star: :star:  |:star:        |未开放      |
+|优势    |人脸融合场景多样，开发文档详细，调用权限较少，不需获取 access_token ，代码实现有 python 等轻量级语言 |人脸融合高清磨合，不会很相似也不会失真很厉害|未开放      |
+|劣势    |代码不够明确和完善，必须要开发者来直接进行提取不能直接上手，开发效率没有符合预期|人脸融合场景少，代码开发实现效率低下，文档不全，对新手不友好，但对有基础会比较简单|未开放      |
+|最适用  | :heavy_check_mark:    | :o:            | :x:  |
 
 
 
@@ -562,43 +564,43 @@ jupyternotebook 截图如下
 </div>
 
 
+1.1 [科大讯飞 语音合成 官网实验](https://www.xfyun.cn/services/online_tts)
 
 
 可以针对不同的用户来进行比较，比如说有新用户和老客户和回头客
-
-科大讯飞(https://www.xfyun.cn/services/online_tts)
 250词
 88+种的语音可以调用并且划分等级为特色发声人78人包括场景与声音年龄段筛选个性化，精品发声人5人，基础发声人5人免费
 语速+音量
 有背景音乐来符合词的个性，声音比腾讯好听一点，并且在换行之间不会讲的很快，可以有间隔来讲不像百度一样
 
-![科大讯飞语音合成](https://images.gitee.com/uploads/images/2019/1224/225930_b898a822_1831543.png "屏幕截图.png")
+>![科大讯飞语音合成](https://images.gitee.com/uploads/images/2019/1224/225930_b898a822_1831543.png "屏幕截图.png")
 
-[科大讯飞语音合成价格](https://www.xfyun.cn/services/online_tts)
+1.2 [科大讯飞语音合成API价格](https://www.xfyun.cn/services/online_tts)
 
-![科大讯飞语音合成价格](https://images.gitee.com/uploads/images/2019/1224/230349_257ae8da_1831543.png "屏幕截图.png")
-
-
+>![科大讯飞语音合成API价格](https://images.gitee.com/uploads/images/2019/1224/230349_257ae8da_1831543.png "屏幕截图.png")
 
 
-百度云语音合成
+
+
+2.1 [百度云 语音合成 官网实验](https://cloud.baidu.com/product/speech/tts)
+
 200字 4种选择声音语速+音调+音量
-![百度云语音合成](https://images.gitee.com/uploads/images/2019/1224/222758_583a75bc_1831543.png "屏幕截图.png")
 
-[百度云语音合成价格](https://ai.baidu.com/ai-doc/SPEECH/Nk38y8pjq)
+>![百度云语音合成](https://images.gitee.com/uploads/images/2019/1224/222758_583a75bc_1831543.png "屏幕截图.png")
 
-![百度云语音合成定价](https://images.gitee.com/uploads/images/2019/1224/223121_1b358da1_1831543.png "屏幕截图.png")
+2.2 [百度云语音合成API价格](https://ai.baidu.com/ai-doc/SPEECH/Nk38y8pjq)
+
+![百度云语音合成API定价](https://images.gitee.com/uploads/images/2019/1224/223121_1b358da1_1831543.png "屏幕截图.png")
 
 
+2.3 [腾讯AI 语音合成 官网实验](https://ai.qq.com/product/aaitts.shtml)
 
-
-腾讯(https://ai.qq.com/product/aaitts.shtml)
 50字 两个平台腾讯AI Lab 和腾讯优图
 4种声音类型
 音高+音量+音色+语速
 在段落之间也就是换行间比百度要慢速一点听得更加舒服，而百度是很着急直接念完 1男3女声，百度是2:2利用情感来进行分析
 
-![腾讯AI语音合成](https://images.gitee.com/uploads/images/2019/1224/223739_b905660c_1831543.png "屏幕截图.png")
+> ![腾讯AI语音合成](https://images.gitee.com/uploads/images/2019/1224/223739_b905660c_1831543.png "屏幕截图.png")
 
 没有收费项目在网站上面查找到相关资讯，在开放平台没有搜索到相关收费信息
 
@@ -612,6 +614,10 @@ jupyternotebook 截图如下
 科大讯飞的语音合成找不到文档就是按照上课来进行书写代码的调用了
 Face++没有语音合成
 腾讯没有语音合成的pythn代码不友好只有PHP的代码
+
+
+
+
 
 ### :star: 使用后风险报告
 (在 PRD 文件中是否有说明且提供连结证据，所使用的 API 类别的现在及未来发展性，如 API 市场竞争程度丶输入输出限制丶定价丶及可替代的程序库（改用自己开发的代码及数据库而不用 API）等等 1%*5=5%)

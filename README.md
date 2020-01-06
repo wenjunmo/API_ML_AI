@@ -368,44 +368,43 @@ GitHub 代码下载地址：
 
 :computer: 1. **人脸融合**
 
-**Face++-人脸融合API**
 
 <div align="center">
-  <h3>:whale2: Project Name：想念 :whale2:</h3>
-  <p>基于微信平台开发的 智能毕业纪念相册 APP</p>
-  <p>Seeking True from Fact 网新人，有态度，不认输，不头秃</p>
+  <h3>Face++-人脸融合API</h3>
 </div>
 
+[Face++ 人脸融合 python 示例代码地址](https://github.com/wenjunmo/API_ML_AI_SmartMemorial/blob/master/API%20%E5%8F%AF%E5%A4%8D%E7%94%A8%E4%BB%A3%E7%A0%81/Face++%E4%BA%BA%E8%84%B8%E8%9E%8D%E5%90%88%20python%E7%A4%BA%E4%BE%8B.md)
 
-
-[使用GitHub地址](https://github.com/wenjunmo/API_ML_AI_SmartMemorial/blob/master/API%20%E5%8F%AF%E5%A4%8D%E7%94%A8%E4%BB%A3%E7%A0%81/Face++%E4%BA%BA%E8%84%B8%E8%9E%8D%E5%90%88%20python%E7%A4%BA%E4%BE%8B.md)
-
-jupyternotebook 截图
+jupyternotebook 截图如下
 
 >![Face++人脸融合requests1](https://images.gitee.com/uploads/images/2019/1224/193433_4f11cb3e_1831543.png "屏幕截图.png")
 
 >![Face++人脸融合requests2](https://images.gitee.com/uploads/images/2019/1224/193612_3e979b83_1831543.png "屏幕截图.png")
 
 
-自动生成的 1.jpg 会直接生成在生成它的代码文件放在同一文件夹中
+上面自动生成的 1.jpg 图片会直接生成在生成它的代码文件中并放在同一文件夹中
 
 >![生成的1.jpg在文档中位置](https://images.gitee.com/uploads/images/2019/1224/194055_126979d3_1831543.png "屏幕截图.png")
 
 -------
 
-**百度大脑AI开放平台-人脸融合API**
 
-jupyternotebook 截图
+<div align="center">
+  <h3>百度大脑 AI开放平台-人脸融合API</h3>
+</div>
 
-[Github使用地址](https://github.com/wenjunmo/API_ML_AI_SmartMemorial/blob/master/API%20%E5%8F%AF%E5%A4%8D%E7%94%A8%E4%BB%A3%E7%A0%81/%E7%99%BE%E5%BA%A6AI%20%E4%BA%BA%E8%84%B8%E8%9E%8D%E5%90%88%20python%20%E7%A4%BA%E4%BE%8B.md)
+[百度 AI 人脸融合 python 示例代码地址](https://github.com/wenjunmo/API_ML_AI_SmartMemorial/blob/master/API%20%E5%8F%AF%E5%A4%8D%E7%94%A8%E4%BB%A3%E7%A0%81/%E7%99%BE%E5%BA%A6AI%20%E4%BA%BA%E8%84%B8%E8%9E%8D%E5%90%88%20python%20%E7%A4%BA%E4%BE%8B.md)
 
-
+jupyternotebook 截图如下
 
 >![百度人脸融合的token获取](https://images.gitee.com/uploads/images/2019/1224/194845_d6e00552_1831543.png "屏幕截图.png")
 
-拿到了 access token 后，还需要将图片进行 base64 编码后再来进行合成
+首先必须要拿到 access token ，拿到之后，还需要将图片进行 base64 编码后再来进行合成
+
 
 ```
+# 这是将图片进行 base64 编码的代码，可直接调用
+
 import base64
 
 with open('1.jpg', 'rb') as f:  # 以二进制读取图片
@@ -414,20 +413,21 @@ with open('1.jpg', 'rb') as f:  # 以二进制读取图片
     print(str(encodestr,'utf-8'))  # 重新编码数据
 ```
 
-将图片转换为base64
+下面是将图片转换为 base64 输出
 
 >![两张图片都必须是在同一个文件夹和代码放在一起](https://images.gitee.com/uploads/images/2019/1224/204058_3317173c_1831543.png "屏幕截图.png")
 
-两张图片放置的位置都必须是在同一个文件夹和将要运行的代码文件放在一起
+上面这两张图片放置的位置都必须是在同一个文件夹和将要运行的代码文件放在一起
 
 >![2图片的储存在同一个文件下](https://images.gitee.com/uploads/images/2019/1224/204704_aa42bdcf_1831543.png "屏幕截图.png")
 
 >![上传两张图片的base64码](https://images.gitee.com/uploads/images/2019/1224/204238_8e36c589_1831543.png "屏幕截图.png")
 
-最后得到 获取返回的json值
+代码结束的最后得到 获取返回的 json 值
 
 >![获取返回的json值](https://images.gitee.com/uploads/images/2019/1224/211001_02d60e88_1831543.png "屏幕截图.png")
  
+---------
 
 :computer: 2. **语音合成**
 

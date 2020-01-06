@@ -449,6 +449,7 @@ jupyternotebook 截图如下
 -------
 
 
+
 <div align="center">
   <h3>百度大脑AI开放平台-语音合成API</h3>
 </div>
@@ -497,29 +498,51 @@ jupyternotebook 截图如下
 >![test.mp3 生成的目录](https://images.gitee.com/uploads/images/2019/1224/131259_58e7fb59_1831543.png "屏幕截图.png")
 
 
+
+
+
+
+
+
+
 ### :star: 使用比较分析
 (在 PRD 文件中是否有说明且提供连结证据，所使用的 API 是查找过最适用的（主要竞争者无或比较次），如考量其成熟度丶性价比丶等等 1%*5=5%)
 
 可以借鉴表格，需要有链接也就是API的链接，判断最实用的，比较主要竞争者合比较次的竞争者，成熟度丶性价比等比较来做好表格
 
-人脸融合
+
+人脸融合+语音合成 可复用性代码：
+
+- [Face++ 人脸融合 python 示例代码地址](https://github.com/wenjunmo/API_ML_AI_SmartMemorial/blob/master/API%20%E5%8F%AF%E5%A4%8D%E7%94%A8%E4%BB%A3%E7%A0%81/Face++%E4%BA%BA%E8%84%B8%E8%9E%8D%E5%90%88%20python%E7%A4%BA%E4%BE%8B.md)
+- [百度 AI 人脸融合 python 示例代码地址](https://github.com/wenjunmo/API_ML_AI_SmartMemorial/blob/master/API%20%E5%8F%AF%E5%A4%8D%E7%94%A8%E4%BB%A3%E7%A0%81/%E7%99%BE%E5%BA%A6AI%20%E4%BA%BA%E8%84%B8%E8%9E%8D%E5%90%88%20python%20%E7%A4%BA%E4%BE%8B.md)
+- [腾讯 AI 语音合成 python 示例代码地址](https://github.com/wenjunmo/API_ML_AI_SmartMemorial/blob/master/API%20%E5%8F%AF%E5%A4%8D%E7%94%A8%E4%BB%A3%E7%A0%81/%E8%85%BE%E8%AE%AF%20AI%20%E8%AF%AD%E9%9F%B3%E5%90%88%E6%88%90%20python%20%E7%A4%BA%E4%BE%8B.md)
+- [百度 AI 语音合成 python 3种 示例代码地址](https://github.com/wenjunmo/API_ML_AI_SmartMemorial/blob/master/API%20%E5%8F%AF%E5%A4%8D%E7%94%A8%E4%BB%A3%E7%A0%81/%E7%99%BE%E5%BA%A6%20AI%20%E8%AF%AD%E9%9F%B3%E5%90%88%E6%88%90%20python%20%E7%A4%BA%E4%BE%8B.md)
 
 
-Face++人脸融合
+
+<div align="center">
+  <h3>人脸融合</h3>
+</div>
+
+
+
+1.1 [Face++ 人脸融合 官网实验](https://www.faceplusplus.com.cn/face-merging/)
+
 
 >![Face++人脸融合](https://images.gitee.com/uploads/images/2019/1224/214239_a66bc4f5_1831543.png "屏幕截图.png")
 
-[Face++人像处理API价格](https://www.faceplusplus.com.cn/v2/pricing-details/#api_4)
+1.2 [Face++人像处理API价格](https://www.faceplusplus.com.cn/v2/pricing-details/#api_4)
 
 >![Face++人像处理API价格](https://images.gitee.com/uploads/images/2019/1224/214630_a1ec1836_1831543.png "屏幕截图.png")
 
 
-百度AI人脸融合
+2.1 [百度AI 人脸融合 官网实验](https://ai.baidu.com/tech/face/merge)
+
 ![百度AI人脸融合](https://images.gitee.com/uploads/images/2019/1224/215101_62b9386f_1831543.png "屏幕截图.png")
 
-[百度AI处理定价](https://ai.baidu.com/ai-doc/FACE/Ck37c1lmj)
+2.2[百度AI人像处理API价格](https://ai.baidu.com/ai-doc/FACE/Ck37c1lmj)
 
-![百度云处理API定价](https://images.gitee.com/uploads/images/2019/1224/215533_293e7a7d_1831543.png "屏幕截图.png")
+![度AI人像处理API价格](https://images.gitee.com/uploads/images/2019/1224/215533_293e7a7d_1831543.png "屏幕截图.png")
 
 
 成熟度丶性价比
@@ -532,7 +555,14 @@ Face++人脸融合
 人脸融合没有开放就是没有成熟
 
 
-语音合成
+
+
+<div align="center">
+  <h3>语音合成</h3>
+</div>
+
+
+
 
 可以针对不同的用户来进行比较，比如说有新用户和老客户和回头客
 

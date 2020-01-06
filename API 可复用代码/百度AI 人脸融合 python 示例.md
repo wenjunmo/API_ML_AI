@@ -46,6 +46,5 @@ headers = {'content-type': 'application/json'}
 response = requests.post(request_url, data=params, headers=headers)
 if response:
     print (response.json())
-
 ```
 

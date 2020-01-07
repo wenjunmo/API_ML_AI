@@ -37,25 +37,26 @@
 
 ## Documentation Directory(文档目录)
 
-- [产品介绍](https://github.com/wenjunmo/API_ML_AI_SmartMemorial#%E4%BA%A7%E5%93%81%E4%BB%8B%E7%BB%8D)
-- [市场背景](https://github.com/wenjunmo/API_ML_AI_SmartMemorial#%E5%B8%82%E5%9C%BA%E8%83%8C%E6%99%AF)
-- [价值主张设计](https://github.com/wenjunmo/API_ML_AI_SmartMemorial#%E4%BB%B7%E5%80%BC%E4%B8%BB%E5%BC%A0%E8%AE%BE%E8%AE%A1)
-  - [加值宣言](https://github.com/wenjunmo/API_ML_AI_SmartMemorial#--%E5%8A%A0%E5%80%BC%E5%AE%A3%E8%A8%80)
-  - [核心价值宣言](https://github.com/wenjunmo/API_ML_AI_SmartMemorial#--%E6%A0%B8%E5%BF%83%E4%BB%B7%E5%80%BC%E5%AE%A3%E8%A8%80)
-  - [用户痛点宣言](https://github.com/wenjunmo/API_ML_AI_SmartMemorial#--%E7%94%A8%E6%88%B7%E7%97%9B%E7%82%B9%E5%AE%A3%E8%A8%80)
-  - [人工智能概率性与用户痛点](https://github.com/wenjunmo/API_ML_AI_SmartMemorial#--%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD%E6%A6%82%E7%8E%87%E6%80%A7%E4%B8%8E%E7%94%A8%E6%88%B7%E7%97%9B%E7%82%B9)
-  - [需求列表与人工智能API加值](https://github.com/wenjunmo/API_ML_AI_SmartMemorial#--%E9%9C%80%E6%B1%82%E5%88%97%E8%A1%A8%E4%B8%8E%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BDapi%E5%8A%A0%E5%80%BC)
-- [原型](https://github.com/wenjunmo/API_ML_AI_SmartMemorial#%E5%8E%9F%E5%9E%8B)
-  - [交互及界面设计](https://github.com/wenjunmo/API_ML_AI_SmartMemorial#--%E4%BA%A4%E4%BA%92%E5%8F%8A%E7%95%8C%E9%9D%A2%E8%AE%BE%E8%AE%A1)
-  - [信息设计](https://github.com/wenjunmo/API_ML_AI_SmartMemorial#--%E4%BF%A1%E6%81%AF%E8%AE%BE%E8%AE%A1)
-  - [原型文档](https://github.com/wenjunmo/API_ML_AI_SmartMemorial#--%E5%8E%9F%E5%9E%8B%E6%96%87%E6%A1%A3)
-  - [口头操作说明](https://github.com/wenjunmo/API_ML_AI_SmartMemorial#--%E5%8F%A3%E5%A4%B4%E6%93%8D%E4%BD%9C%E8%AF%B4%E6%98%8E)
-- [API 产品使用关键AI或机器学习之API的输出入展示](https://github.com/wenjunmo/API_ML_AI_SmartMemorial#api-%E4%BA%A7%E5%93%81%E4%BD%BF%E7%94%A8%E5%85%B3%E9%94%AEai%E6%88%96%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E4%B9%8Bapi%E7%9A%84%E8%BE%93%E5%87%BA%E5%85%A5%E5%B1%95%E7%A4%BA)
-  - [使用水平](https://github.com/wenjunmo/API_ML_AI_SmartMemorial#--%E4%BD%BF%E7%94%A8%E6%B0%B4%E5%B9%B3)
-  - [使用比较分析](https://github.com/wenjunmo/API_ML_AI_SmartMemorial#--%E4%BD%BF%E7%94%A8%E6%AF%94%E8%BE%83%E5%88%86%E6%9E%90)
-  - [使用后风险报告](https://github.com/wenjunmo/API_ML_AI_SmartMemorial#--%E4%BD%BF%E7%94%A8%E5%90%8E%E9%A3%8E%E9%99%A9%E6%8A%A5%E5%91%8A)
-  - [加分项](https://github.com/wenjunmo/API_ML_AI_SmartMemorial#--%E5%8A%A0%E5%88%86%E9%A1%B9)
+- [产品介绍](https://github.com/wenjunmo/API_ML_AI_SmartMemorial#sparkles-%E4%BA%A7%E5%93%81%E4%BB%8B%E7%BB%8D)
+- [市场背景](https://github.com/wenjunmo/API_ML_AI_SmartMemorial#sparkles-%E5%B8%82%E5%9C%BA%E8%83%8C%E6%99%AF)
+- [价值主张设计](https://github.com/wenjunmo/API_ML_AI_SmartMemorial#sparkles-%E4%BB%B7%E5%80%BC%E4%B8%BB%E5%BC%A0%E8%AE%BE%E8%AE%A1)
+  - [加值宣言](https://github.com/wenjunmo/API_ML_AI_SmartMemorial#star-%E5%8A%A0%E5%80%BC%E5%AE%A3%E8%A8%80)
+  - [核心价值宣言](https://github.com/wenjunmo/API_ML_AI_SmartMemorial#star-%E6%A0%B8%E5%BF%83%E4%BB%B7%E5%80%BC%E5%AE%A3%E8%A8%80)
+  - [用户痛点宣言](https://github.com/wenjunmo/API_ML_AI_SmartMemorial#star-%E7%94%A8%E6%88%B7%E7%97%9B%E7%82%B9%E5%AE%A3%E8%A8%80)
+  - [人工智能概率性与用户痛点](https://github.com/wenjunmo/API_ML_AI_SmartMemorial#star-%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD%E6%A6%82%E7%8E%87%E6%80%A7%E4%B8%8E%E7%94%A8%E6%88%B7%E7%97%9B%E7%82%B9)
+  - [需求列表与人工智能API加值]https://github.com/wenjunmo/API_ML_AI_SmartMemorial#star-%E9%9C%80%E6%B1%82%E5%88%97%E8%A1%A8%E4%B8%8E%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD-api-%E5%8A%A0%E5%80%BC)
+- [原型](https://github.com/wenjunmo/API_ML_AI_SmartMemorial#sparkles-%E5%8E%9F%E5%9E%8B-%E6%9C%AA%E5%AE%8C%E6%88%90)
+  - [交互及界面设计](https://github.com/wenjunmo/API_ML_AI_SmartMemorial#star-%E4%BA%A4%E4%BA%92%E5%8F%8A%E7%95%8C%E9%9D%A2%E8%AE%BE%E8%AE%A1)
+  - [信息设计](https://github.com/wenjunmo/API_ML_AI_SmartMemorial#star-%E4%BF%A1%E6%81%AF%E8%AE%BE%E8%AE%A1)
+  - [原型文档](https://github.com/wenjunmo/API_ML_AI_SmartMemorial#star-%E5%8E%9F%E5%9E%8B%E6%96%87%E6%A1%A3)
+  - [口头操作说明](https://github.com/wenjunmo/API_ML_AI_SmartMemorial#star-%E5%8F%A3%E5%A4%B4%E6%93%8D%E4%BD%9C%E8%AF%B4%E6%98%8E)
+- [API 产品使用关键AI或机器学习之API的输出入展示](https://github.com/wenjunmo/API_ML_AI_SmartMemorial#sparkles-api-%E4%BA%A7%E5%93%81%E4%BD%BF%E7%94%A8%E5%85%B3%E9%94%AE-ai-%E6%88%96%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E4%B9%8Bapi%E7%9A%84%E8%BE%93%E5%87%BA%E5%85%A5%E5%B1%95%E7%A4%BA-%E6%B2%A1%E6%9C%89%E6%AD%A3%E7%A1%AE%E7%90%86%E8%A7%A3%E8%BE%93%E5%85%A5%E5%8F%8A%E8%BE%93%E5%87%BA%E7%9A%84%E6%98%AF%E4%BB%80%E4%B9%88)
+  - [使用水平](https://github.com/wenjunmo/API_ML_AI_SmartMemorial#star-%E4%BD%BF%E7%94%A8%E6%B0%B4%E5%B9%B3)
+  - [使用比较分析](https://github.com/wenjunmo/API_ML_AI_SmartMemorial#star-%E4%BD%BF%E7%94%A8%E6%AF%94%E8%BE%83%E5%88%86%E6%9E%90)
+  - [使用后风险报告](https://github.com/wenjunmo/API_ML_AI_SmartMemorial#star-%E4%BD%BF%E7%94%A8%E5%90%8E%E9%A3%8E%E9%99%A9%E6%8A%A5%E5%91%8A)
+  - [加分项](https://github.com/wenjunmo/API_ML_AI_SmartMemorial#star-%E5%8A%A0%E5%88%86%E9%A1%B9)
 
+改了名字要重新来进行链接更新还是要更新的
 
 ## :sparkles: 产品介绍
 
@@ -655,7 +656,7 @@ jupyternotebook 截图如下
 (使用复杂度：用了 2 个以上机器学习与人工智能的 API 之输入及输出 1%*3=3%)
 
 调用截图可查看链接：
-  - [使用水平](https://github.com/wenjunmo/API_ML_AI_SmartMemorial#--%E4%BD%BF%E7%94%A8%E6%B0%B4%E5%B9%B3)
+  - [使用水平](https://github.com/wenjunmo/API_ML_AI_SmartMemorial#star-%E4%BD%BF%E7%94%A8%E6%B0%B4%E5%B9%B3)
 
 附件清单：
 

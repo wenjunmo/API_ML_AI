@@ -44,7 +44,7 @@
   - [核心价值宣言](https://github.com/wenjunmo/API_ML_AI_SmartMemorial#star-%E6%A0%B8%E5%BF%83%E4%BB%B7%E5%80%BC%E5%AE%A3%E8%A8%80)
   - [用户痛点宣言](https://github.com/wenjunmo/API_ML_AI_SmartMemorial#star-%E7%94%A8%E6%88%B7%E7%97%9B%E7%82%B9%E5%AE%A3%E8%A8%80)
   - [人工智能概率性与用户痛点](https://github.com/wenjunmo/API_ML_AI_SmartMemorial#star-%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD%E6%A6%82%E7%8E%87%E6%80%A7%E4%B8%8E%E7%94%A8%E6%88%B7%E7%97%9B%E7%82%B9)
-  - [需求列表与人工智能API加值]https://github.com/wenjunmo/API_ML_AI_SmartMemorial#star-%E9%9C%80%E6%B1%82%E5%88%97%E8%A1%A8%E4%B8%8E%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD-api-%E5%8A%A0%E5%80%BC)
+  - [需求列表与人工智能API加值](https://github.com/wenjunmo/API_ML_AI_SmartMemorial#star-%E9%9C%80%E6%B1%82%E5%88%97%E8%A1%A8%E4%B8%8E%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD-api-%E5%8A%A0%E5%80%BC)
 - [原型](https://github.com/wenjunmo/API_ML_AI_SmartMemorial#sparkles-%E5%8E%9F%E5%9E%8B-%E6%9C%AA%E5%AE%8C%E6%88%90)
   - [交互及界面设计](https://github.com/wenjunmo/API_ML_AI_SmartMemorial#star-%E4%BA%A4%E4%BA%92%E5%8F%8A%E7%95%8C%E9%9D%A2%E8%AE%BE%E8%AE%A1)
   - [信息设计](https://github.com/wenjunmo/API_ML_AI_SmartMemorial#star-%E4%BF%A1%E6%81%AF%E8%AE%BE%E8%AE%A1)
@@ -216,8 +216,6 @@ APP 形式无疑是一种可以涵盖更多不同信息形式的新型毕业纪�
 (在 PRD 文件中是否有说明且原型是否有做到：交互及界面设计的某个核心交互环节使用了人工智能的加值 1*5%=5%)
 
 
-
-
 1. 有界面交互
 2. 有核心你合我猜的人工智能
 3. 协同过滤的推荐算法交互
@@ -228,6 +226,12 @@ APP 形式无疑是一种可以涵盖更多不同信息形式的新型毕业纪�
 |---------|-------|-------|
 |你合我猜|上传人脸照片与在线输入语音文本|简洁大方|
 |猜测推荐|协同过滤的推荐算法推荐用户界面|简洁大方|
+
+博物馆：
+>![产品架构](https://images.gitee.com/uploads/images/2020/0110/041602_b6d38aa2_1831543.png "屏幕截图.png")
+>![核心功能交互说明](https://images.gitee.com/uploads/images/2020/0110/041641_b5aba9d4_1831543.png "屏幕截图.png")
+>![首页(简介+地图)](https://images.gitee.com/uploads/images/2020/0110/041842_fde31293_1831543.png "屏幕截图.png")
+
 
 
 [智能毕业纪念册](http://nfunm065.gitee.io/api_ml_ai_final/#g=1&p=%E6%99%BA%E8%83%BD%E6%AF%95%E4%B8%9A%E7%BA%AA%E5%BF%B5%E5%86%8C)

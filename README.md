@@ -599,4 +599,13 @@ jupyternotebook 截图如下
 
 智能毕业纪念相册原型展示和下载：
 
+[展示](http://nfunm065.gitee.io/api_ml_ai_smartmemorial/#g=1&p=%E6%99%BA%E8%83%BD%E6%AF%95%E4%B8%9A%E7%BA%AA%E5%BF%B5%E5%86%8C)
 
+[下载](https://github.com/wenjunmo/API_ML_AI_SmartMemorial/tree/master/SmartMemorial_rp)
+
+
+
+
+
+
+----OVER-----
